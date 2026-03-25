@@ -42,7 +42,8 @@ export default function RootLayout({
 
                         <p className="text-sm m-0">
                             © 2026 Vacation-Inclusive
-      </p>
+                        </p>
+                        <p className="text-sm m-0>Travel guides and itinerary planning resources.</p>
 
                         <div className="flex justify-center gap-6 text-sm text-gray-300">
                             <a href="/about" className="hover:underline">About</a>
