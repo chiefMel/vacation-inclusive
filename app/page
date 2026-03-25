@@ -1,0 +1,31 @@
+import Link from "next/link";
+
+export default function Home() {
+    return (
+        <main className="max-w-5xl mx-auto px-6 py-12 space-y-16">
+
+            <section className="text-center space-y-4">
+                <h1 className="text-5xl font-bold">
+                    Plan Your Perfect Trip Faster
+        </h1>
+                <p className="text-lg text-gray-600">
+                    Step-by-step itineraries, budgets, and travel plans — no guesswork.
+        </p>
+            </section>
+
+            <section>
+                <h2 className="text-3xl font-semibold mb-6">Start With a Proven Plan</h2>
+
+                <Link href="/italy/7-day-itinerary" className="border p-6 rounded-lg block hover:shadow">
+                    <h3 className="text-xl font-semibold mb-2">
+                        7 Day Italy Itinerary
+          </h3>
+                    <p className="text-gray-600">
+                        Rome, Florence & Venice — simple train route, no car needed.
+          </p>
+                </Link>
+            </section>
+
+        </main>
+    );
+}
