@@ -29,16 +29,14 @@ export default function AffiliateLink({
             rel="nofollow sponsored noopener noreferrer"
             onClick={handleClick}
             className={`
-        inline-block
-        bg-black text-white
-        px-5 py-2.5
-        rounded-lg
-        text-sm font-medium
-        transition
-        hover:bg-gray-800
-        active:scale-95
-        ${className}
-      `}
+  inline-block
+  px-6 py-3
+  rounded-lg
+  text-sm font-medium
+  transition
+  active:scale-95
+  ${className || "bg-blue-600 text-white hover:bg-blue-700"}
+`}
         >
             {children}
         </a>

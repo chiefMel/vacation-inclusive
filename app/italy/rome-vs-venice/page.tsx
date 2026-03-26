@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function RomeVsVenice() {
     return (
-        <main className="bg-white text-gray-900">
+        <main className="bg-white text-black hover:bg-gray-100">
 
             {/* HERO */}
             <section className="relative h-[400px] overflow-hidden">
