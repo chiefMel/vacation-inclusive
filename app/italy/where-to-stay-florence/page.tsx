@@ -1,6 +1,6 @@
 // app/italy/where-to-stay-florence/page.tsx
-import AreaSection from './components/AreaSection';
-import HotelCard from './components/HotelCard';
+import AreaSection from '@/components/AreaSection';
+import HotelCard from '@/components/HotelCard';
 import AffiliateLink from '@/components/AffiliateLink';
 import Link from 'next/link';
 
