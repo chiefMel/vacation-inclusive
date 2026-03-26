@@ -14,9 +14,9 @@ export default function RomeVsFlorence() {
         <main className="bg-white text-gray-900">
 
             {/* HERO */}
-            <section className="relative h-[400px]">
+            <section className="relative h-[380px]">
                 <Image
-                    src="/images/florence.jpg"
+                    src="/images/italy-hero.jpg"
                     alt="Rome vs Florence"
                     fill
                     className="object-cover"
@@ -26,14 +26,11 @@ export default function RomeVsFlorence() {
                 <div className="absolute inset-0 flex items-center justify-center text-center px-6">
                     <div className="text-white space-y-4 max-w-2xl">
                         <h1 className="text-4xl md:text-5xl font-bold">Rome vs Florence</h1>
-                        <p className="text-lg">
-                            Which city should you visit first? Here’s the clear answer.
-            </p>
+                        <p className="text-lg">Which city should you visit first?</p>
                     </div>
                 </div>
             </section>
 
-            {/* CONTENT */}
             <div className="max-w-5xl mx-auto px-6 py-16 space-y-16">
 
                 {/* Back */}
@@ -51,65 +48,8 @@ export default function RomeVsFlorence() {
                     </ul>
                 </section>
 
-                {/* SIDE-BY-SIDE */}
-                <section className="grid md:grid-cols-2 gap-8">
-
-                    {/* ROME */}
-                    <div className="border rounded-2xl overflow-hidden">
-                        <div className="relative h-48">
-                            <Image
-                                src="/images/rome.jpg"
-                                alt="Rome"
-                                fill
-                                className="object-cover rounded-t-2xl"
-                            />
-                        </div>
-
-                        <div className="p-6 space-y-3">
-                            <h2 className="text-xl font-semibold">Rome</h2>
-                            <ul className="text-gray-600 space-y-1">
-                                <li>✔ Iconic landmarks (Colosseum, Vatican)</li>
-                                <li>✔ Best for first-time visitors</li>
-                                <li>✔ More things to do</li>
-                                <li>✖ Busy and spread out</li>
-                            </ul>
-
-                            <AffiliateLink href={affiliateLinks.hotels}>
-                                Find hotels in Rome
-              </AffiliateLink>
-                        </div>
-                    </div>
-
-                    {/* FLORENCE */}
-                    <div className="border rounded-2xl overflow-hidden">
-                        <div className="relative h-48">
-                            <Image
-                                src="/images/florence.jpg"
-                                alt="Florence"
-                                fill
-                                className="object-cover rounded-t-2xl"
-                            />
-                        </div>
-
-                        <div className="p-6 space-y-3">
-                            <h2 className="text-xl font-semibold">Florence</h2>
-                            <ul className="text-gray-600 space-y-1">
-                                <li>✔ Compact and walkable</li>
-                                <li>✔ Relaxed atmosphere</li>
-                                <li>✔ Great for art & food</li>
-                                <li>✖ Fewer major attractions</li>
-                            </ul>
-
-                            <AffiliateLink href={affiliateLinks.hotels}>
-                                Find hotels in Florence
-              </AffiliateLink>
-                        </div>
-                    </div>
-
-                </section>
-
-                {/* COMPARISON TABLE */}
-                <section className="mt-16">
+                {/* COMPARISON TABLE — moved earlier */}
+                <section>
                     <h2 className="text-2xl font-semibold mb-4 text-center">
                         Rome vs Florence — Quick Comparison
           </h2>
@@ -159,14 +99,67 @@ export default function RomeVsFlorence() {
                     </div>
 
                     <div className="text-center mt-6">
-                        <p className="text-sm text-gray-600 mb-2">
-                            Prices vary by date — check availability for your travel dates:
-            </p>
-
                         <AffiliateLink href={affiliateLinks.hotels}>
                             Compare hotel prices in Rome & Florence
             </AffiliateLink>
                     </div>
+                </section>
+
+                {/* SIDE-BY-SIDE — moved below table */}
+                <section className="grid md:grid-cols-2 gap-8">
+
+                    {/* ROME */}
+                    <div className="border rounded-2xl overflow-hidden">
+                        <div className="relative h-48">
+                            <Image
+                                src="/images/rome.jpg"
+                                alt="Rome"
+                                fill
+                                className="object-cover"
+                            />
+                        </div>
+
+                        <div className="p-6 space-y-3">
+                            <h2 className="text-xl font-semibold">Rome</h2>
+                            <ul className="text-gray-600 space-y-1">
+                                <li>✔ Iconic landmarks (Colosseum, Vatican)</li>
+                                <li>✔ Best for first-time visitors</li>
+                                <li>✔ More things to do</li>
+                                <li>✖ Busy and spread out</li>
+                            </ul>
+
+                            <AffiliateLink href={affiliateLinks.hotels}>
+                                Find hotels in Rome
+              </AffiliateLink>
+                        </div>
+                    </div>
+
+                    {/* FLORENCE */}
+                    <div className="border rounded-2xl overflow-hidden">
+                        <div className="relative h-48">
+                            <Image
+                                src="/images/florence.jpg"
+                                alt="Florence"
+                                fill
+                                className="object-cover"
+                            />
+                        </div>
+
+                        <div className="p-6 space-y-3">
+                            <h2 className="text-xl font-semibold">Florence</h2>
+                            <ul className="text-gray-600 space-y-1">
+                                <li>✔ Compact and walkable</li>
+                                <li>✔ Relaxed atmosphere</li>
+                                <li>✔ Great for art & food</li>
+                                <li>✖ Fewer major attractions</li>
+                            </ul>
+
+                            <AffiliateLink href={affiliateLinks.hotels}>
+                                Find hotels in Florence
+              </AffiliateLink>
+                        </div>
+                    </div>
+
                 </section>
 
                 {/* DETAILS */}
