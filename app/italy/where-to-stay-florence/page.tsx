@@ -13,7 +13,7 @@ export default function WhereToStayFlorence() {
                 <h1 className="text-4xl font-bold mb-4">
                     Where to Stay in Florence (Best Areas + Hotels)
         </h1>
-                <p className="text-lg mb-6">
+                <p className="text-lg mb-6 text-gray-700">
                     Choosing the right area in Florence can make or break your trip. Here are the best neighborhoods and hotels for every type of traveler.
         </p>
                 <AffiliateLink href="AFFILIATE_LINK_ALL_HOTELS">
@@ -25,8 +25,8 @@ export default function WhereToStayFlorence() {
 
             {/* Quick Picks */}
             <section className="py-12">
-                <h2 className="text-2xl font-semibold mb-6">Best Hotels in Florence (Quick Picks)</h2>
-                <div className="grid gap-6 md:grid-cols-2">
+                <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">Best Hotels in Florence (Quick Picks)</h2>
+                <div className="border rounded-2xl p-6 shadow-sm hover:shadow-md transition">
                     <HotelCard
                         name="Hotel Spadai"
                         desc="Central location near the Duomo. Modern rooms and consistently high ratings."
@@ -82,14 +82,14 @@ export default function WhereToStayFlorence() {
 
             {/* FAQ Section */}
             <section className="py-12">
-                <h2 className="text-2xl font-semibold mb-6">FAQs About Staying in Florence</h2>
+                <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">FAQs About Staying in Florence</h2>
                 <div className="space-y-4">
                     <div>
-                        <h3 className="font-semibold">Is Florence walkable?</h3>
+                        <h3 className="text-gray-800 font-semibold">Is Florence walkable?</h3>
                         <p>Yes, most major attractions are within walking distance.</p>
                     </div>
                     <div>
-                        <h3 className="font-semibold">Is it better to stay in the historic center?</h3>
+                        <h3 className="text-gray-800 font-semibold">Is it better to stay in the historic center?</h3>
                         <p>For first-time visitors, absolutely.</p>
                     </div>
                 </div>
