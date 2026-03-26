@@ -20,7 +20,7 @@ export default function RomeVsFlorence() {
                     src="/images/florence.jpg"
                     alt="Rome vs Florence"
                     fill
-                    className="object-cover rounded-t-2xl"
+                    className="object-cover "
                 />
                 <div className="absolute inset-0 bg-black/40" />
 
