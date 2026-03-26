@@ -11,7 +11,7 @@ interface HotelCardProps {
 
 export default function HotelCard({ name, desc, link, highlight, primaryCTA }: HotelCardProps) {
     return (
-        <div className="border rounded-2xl p-6 shadow-md hover:shadow-lg transition">
+        <div className="border rounded-2xl p-6 shadow-md hover:shadow-lg scale-[1.01] transition">
             <h3 className="text-xl font-semibold mb-1">{name}</h3>
             {highlight && <span className="text-sm font-medium text-gray-600 mb-2 block">{highlight}</span>}
             <p className="mb-4">{desc}</p>
