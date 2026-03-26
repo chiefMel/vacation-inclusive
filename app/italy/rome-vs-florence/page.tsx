@@ -83,6 +83,12 @@ export default function RomeVsFlorence() {
                                 <li>✔ More things to do</li>
                                 <li>✖ Busy and spread out</li>
                             </ul>
+
+                            {/* Use this to style button:
+                                <AffiliateLink
+                                href={affiliateLinks.hotels}
+                                className={buttonStyles.secondary}>*/}
+
                             <AffiliateLink href={affiliateLinks.hotels}>
                                 Find hotels in Rome
 </AffiliateLink>
