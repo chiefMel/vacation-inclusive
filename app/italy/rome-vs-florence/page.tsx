@@ -16,7 +16,7 @@ export default function RomeVsFlorence() {
             {/* HERO */}
             <section className="relative h-[380px]">
                 <Image
-                    src="/images/italy-hero.jpg"
+                    src="/images/florence.jpg"
                     alt="Rome vs Florence"
                     fill
                     className="object-cover"
