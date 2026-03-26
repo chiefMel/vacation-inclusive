@@ -16,7 +16,7 @@ export default function WhereToStayFlorence() {
                 <p className="text-lg md:text-xl text-gray-700 mb-6">
                     Choosing the right area in Florence can make or break your trip. Here are the best neighborhoods and hotels for every type of traveler.
         </p>
-                <AffiliateLink href="AFFILIATE_LINK_ALL_HOTELS">
+                <AffiliateLink href="https://www.booking.com/index.html">
                     <button className="border border-black px-6 py-3">
                         View All Florence Hotels
           </button>
@@ -33,14 +33,14 @@ export default function WhereToStayFlorence() {
                         name="Hotel Spadai"
                         highlight="Best Overall"
                         desc="Steps from the Duomo with modern rooms, excellent breakfast, and consistently high ratings—one of the most booked hotels in Florence."
-                        link="AFFILIATE_LINK_HOTEL_SPADAI"
+                        link="https://www.booking.com/index.html"
                         primaryCTA
                     />
                     <HotelCard
                         name="Four Seasons Firenze"
                         highlight="Luxury"
                         desc="A peaceful luxury retreat with private gardens, spa, and world-class service just minutes from the historic center."
-                        link="AFFILIATE_LINK_FOUR_SEASONS"
+                        link="https://www.booking.com/index.html"
                         primaryCTA
                     />
                 </div>
@@ -54,13 +54,13 @@ export default function WhereToStayFlorence() {
                     {
                         name: "Hotel Brunelleschi",
                         desc: "Stay in a restored historic building just steps from Florence’s main attractions, with top-rated service and elegant rooms.",
-                        link: "AFFILIATE_LINK_BRUNELLESCHI",
+                        link: "https://www.booking.com/index.html",
                         highlight: "Historic Stay",
                     },
                     {
                         name: "Hotel Spadai",
                         desc: "Modern boutique hotel near the Duomo with excellent reviews and a location that’s hard to beat.",
-                        link: "AFFILIATE_LINK_HOTEL_SPADAI",
+                        link: "https://www.booking.com/index.html",
                     },
                 ]}
             />
@@ -72,12 +72,12 @@ export default function WhereToStayFlorence() {
                     {
                         name: "Hotel Santa Croce",
                         desc: "Cozy, family-run hotel in the heart of the neighborhood.",
-                        link: "AFFILIATE_LINK_SANTA_CROCE",
+                        link: "https://www.booking.com/index.html",
                     },
                     {
                         name: "Palazzo Guadagni",
                         desc: "Charming boutique stay with a rooftop terrace and authentic local feel in one of Florence’s most atmospheric neighborhoods.",
-                        link: "AFFILIATE_LINK_PALAZZO",
+                        link: "https://www.booking.com/index.html",
                         highlight: "Local Favorite",
                     },
                 ]}
@@ -85,7 +85,7 @@ export default function WhereToStayFlorence() {
 
             {/* Mid-page CTA */}
             <section className="py-12 text-center">
-                <AffiliateLink href="AFFILIATE_LINK_ALL_HOTELS">
+                <AffiliateLink href="https://www.booking.com/index.html">
                     <button className="bg-black text-white px-8 py-4 text-lg">
                         See All Florence Hotel Deals
           </button>
@@ -122,7 +122,7 @@ export default function WhereToStayFlorence() {
                 <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
                     Ready to book your stay in Florence?
         </h2>
-                <AffiliateLink href="AFFILIATE_LINK_ALL_HOTELS">
+                <AffiliateLink href="https://www.booking.com/index.html">
                     <button className="bg-black text-white px-8 py-4 text-lg">
                         Check Florence Hotel Deals
           </button>
