@@ -12,7 +12,9 @@ interface AreaSectionProps {
     }[];
 }
 
-export default function AreaSection({ title, description, hotels }: AreaSectionProps) {
+import HotelCard from './HotelCard';
+
+export default function AreaSection({ title, description, hotels }) {
     return (
         <section className="py-12">
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-2">{title}</h2>
@@ -24,9 +26,9 @@ export default function AreaSection({ title, description, hotels }: AreaSectionP
                         key={idx}
                         name={hotel.name}
                         desc={hotel.desc}
-                        highlight={hotel.highlight}
+                        highlight={hotel.highlight} // optional
                         link={hotel.link}
-                        primaryCTA={false} // secondary button for AreaSection
+                        primaryCTA={false} // always false for AreaSection buttons
                     />
                 ))}
             </div>

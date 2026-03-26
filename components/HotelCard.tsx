@@ -30,8 +30,8 @@ export default function HotelCard({
                 <button
                     className={`w-full px-5 py-2 rounded font-semibold transition
     ${primaryCTA
-                            ? 'bg-black text-white hover:opacity-90'      // Quick Picks: black button, white text
-                            : 'border border-black text-black hover:bg-black hover:text-white'} // AreaSection: outline button, black text, hover turns black bg + white text
+                            ? 'bg-black text-white hover:opacity-90'
+                            : 'border border-black text-black hover:bg-black hover:text-white'}
   `}
                 >
                     {primaryCTA ? 'Check Availability' : 'View Hotel'}
