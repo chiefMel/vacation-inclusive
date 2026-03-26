@@ -162,7 +162,7 @@ export default function Home() {
 
                   </Link>
 
-                  { /* Where to stay in Florence*/}
+                  {/* Where to stay in Florence*/}
                   {/*<Link href="/italy/where-to-stay-florence" className="group border rounded-lg overflow-hidden hover:shadow border rounded-lg overflow-hidden hover:shadow">
 
                       <img
