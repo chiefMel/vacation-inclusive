@@ -47,24 +47,37 @@ export default function WhereToStayFlorence() {
             </section>
 
             {/* Area Sections */}
-            <AreaSection
-                title="Historic Center (Centro Storico)"
-                description="Best for first-time visitors who want to walk everywhere."
-                hotels={[
+            {/*hotels={[
                     {
                         name: "Hotel Brunelleschi",
                         desc: "Stay in a restored historic building just steps from Florence’s main attractions, with top-rated service and elegant rooms.",
                         link: "https://www.booking.com/index.html",
                         highlight: "Historic Stay",
-                        primaryCTA
                     },
                     {
                         name: "Hotel Spadai",
                         desc: "Modern boutique hotel near the Duomo with excellent reviews and a location that’s hard to beat.",
                         link: "https://www.booking.com/index.html",
-                        primaryCTA
                     },
-                ]}
+                ]}*/}
+
+            <AreaSection
+                title="Historic Center (Centro Storico)"
+                description="Best for first-time visitors who want to walk everywhere."
+                <HotelCard
+                        name="Hotel Brunelleschi"
+                        highlight="Historic Stay"
+                        desc="Stay in a restored historic building just steps from Florence’s main attractions, with top-rated service and elegant rooms."
+                        link="https://www.booking.com/index.html",
+                        primaryCTA
+                    />
+                <HotelCard
+                        name="Hotel Spadai"
+                        desc= "Modern boutique hotel near the Duomo with excellent reviews and a location that’s hard to beat.",
+                        link="https://www.booking.com/index.html",
+                     primaryCTA
+                    />
+                
             />
 
             <AreaSection
