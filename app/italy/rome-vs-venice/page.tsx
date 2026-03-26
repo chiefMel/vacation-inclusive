@@ -34,7 +34,16 @@ export default function RomeVsVenice() {
                     </div>
                 </div>
             </section>
-
+            <div className="max-w-5xl mx-auto px-6 mt-8">
+                <div className="bg-blue-600 text-white p-4 rounded-xl text-center">
+                    <p className="font-medium mb-2">
+                        Compare hotel prices in Rome & Venice for your travel dates
+    </p>
+                    <AffiliateLink href={affiliateLinks.hotels} className="bg-white text-black">
+                        Check Prices Now
+    </AffiliateLink>
+                </div>
+            </div>
             {/* CONTENT */}
             <div className="max-w-5xl mx-auto px-6 py-16 space-y-16">
 
