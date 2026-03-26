@@ -39,7 +39,7 @@ export default function RomeVsVenice() {
                     <p className="font-medium mb-2">
                         Compare hotel prices in Rome & Venice for your travel dates
     </p>
-                    <AffiliateLink href={affiliateLinks.hotels} className="bg-white text-black border border-gray-300 hover:bg-gray-100">
+                    <AffiliateLink href={affiliateLinks.hotels} >
                         Check Prices Now
     </AffiliateLink>
                 </div>
@@ -111,7 +111,7 @@ export default function RomeVsVenice() {
                     </ul>
 
                     <AffiliateLink href={affiliateLinks.hotels}
-                     className="bg-white text-black border border-gray-300 hover:bg-gray-100"
+                    
                     >
                         Find hotels in Rome
           </AffiliateLink>
@@ -127,7 +127,7 @@ export default function RomeVsVenice() {
                         <li>✖ Expensive and crowded</li>
                     </ul>
 
-                    <AffiliateLink href={affiliateLinks.hotels} className="bg-white text-black border border-gray-300 hover:bg-gray-100">
+                    <AffiliateLink href={affiliateLinks.hotels} >
                         Find hotels in Venice
           </AffiliateLink>
                 </section>
