@@ -3,7 +3,6 @@ import Image from "next/image";
 import AffiliateLink from "@/components/AffiliateLink";
 import { affiliateLinks } from "@/lib/affiliateLinks";
 
-
 export const metadata = {
     title: "Rome vs Florence: Which Should You Visit First?",
     description:
@@ -20,26 +19,19 @@ export default function RomeVsFlorence() {
                     src="/images/florence.jpg"
                     alt="Rome vs Florence"
                     fill
-                    className="object-cover "
+                    className="object-cover"
                 />
                 <div className="absolute inset-0 bg-black/40" />
 
                 <div className="absolute inset-0 flex items-center justify-center text-center px-6">
                     <div className="text-white space-y-4 max-w-2xl">
-
-                        <h1 className="text-4xl md:text-5xl font-bold">
-                            Rome vs Florence
-            </h1>
-                        
-
-
+                        <h1 className="text-4xl md:text-5xl font-bold">Rome vs Florence</h1>
                         <p className="text-lg">
                             Which city should you visit first? Here’s the clear answer.
             </p>
                     </div>
                 </div>
             </section>
-            
 
             {/* CONTENT */}
             <div className="max-w-5xl mx-auto px-6 py-16 space-y-16">
@@ -59,12 +51,10 @@ export default function RomeVsFlorence() {
                     </ul>
                 </section>
 
-                
-
                 {/* SIDE-BY-SIDE */}
                 <section className="grid md:grid-cols-2 gap-8">
 
-                    {/* Rome */}
+                    {/* ROME */}
                     <div className="border rounded-2xl overflow-hidden">
                         <div className="relative h-48">
                             <Image
@@ -84,22 +74,13 @@ export default function RomeVsFlorence() {
                                 <li>✖ Busy and spread out</li>
                             </ul>
 
-                            {/* Use this to style button:
-                                <AffiliateLink
-                                href={affiliateLinks.hotels}
-                                className={buttonStyles.secondary}>*/}
-
                             <AffiliateLink href={affiliateLinks.hotels}>
                                 Find hotels in Rome
-</AffiliateLink>
-                            {/*<a href="#" className="text-blue-600 underline">
-                                Find hotels in Rome
-              </a>*/}
+              </AffiliateLink>
                         </div>
                     </div>
 
-
-                    {/* Florence */}
+                    {/* FLORENCE */}
                     <div className="border rounded-2xl overflow-hidden">
                         <div className="relative h-48">
                             <Image
@@ -121,11 +102,7 @@ export default function RomeVsFlorence() {
 
                             <AffiliateLink href={affiliateLinks.hotels}>
                                 Find hotels in Florence
-                            </AffiliateLink>
-
-                            {/*<a href="#" className="text-blue-600 underline">
-                                Find hotels in Florence
-                            </a>*/}
+              </AffiliateLink>
                         </div>
                     </div>
 
@@ -133,10 +110,9 @@ export default function RomeVsFlorence() {
 
                 {/* COMPARISON TABLE */}
                 <section className="mt-16">
-
                     <h2 className="text-2xl font-semibold mb-4 text-center">
                         Rome vs Florence — Quick Comparison
-  </h2>
+          </h2>
 
                     <div className="overflow-x-auto border rounded-lg">
                         <table className="w-full text-sm">
@@ -149,7 +125,6 @@ export default function RomeVsFlorence() {
                             </thead>
 
                             <tbody>
-
                                 <tr className="border-t">
                                     <td className="p-4 font-medium">Best For</td>
                                     <td className="p-4">First-time visitors</td>
@@ -179,26 +154,21 @@ export default function RomeVsFlorence() {
                                     <td className="p-4">Medium</td>
                                     <td className="p-4">High</td>
                                 </tr>
-
                             </tbody>
                         </table>
                     </div>
 
-                    {/* CTA UNDER TABLE */}
                     <div className="text-center mt-6">
-
                         <p className="text-sm text-gray-600 mb-2">
                             Prices vary by date — check availability for your travel dates:
-    </p>
+            </p>
 
                         <AffiliateLink href={affiliateLinks.hotels}>
                             Compare hotel prices in Rome & Florence
-    </AffiliateLink>
-
+            </AffiliateLink>
                     </div>
-
                 </section>
-                
+
                 {/* DETAILS */}
                 <section className="space-y-8">
 
@@ -230,30 +200,18 @@ export default function RomeVsFlorence() {
 
                 {/* CTA */}
                 <section className="bg-black text-white p-8 rounded-2xl text-center space-y-4">
-                    <h2 className="text-2xl font-semibold">
-                        Start Planning Your Trip
-          </h2>
+                    <h2 className="text-2xl font-semibold">Start Planning Your Trip</h2>
 
                     <div className="flex justify-center gap-4 flex-wrap">
-
                         <AffiliateLink href={affiliateLinks.flights}>
                             Compare Flights
-                        </AffiliateLink>
+            </AffiliateLink>
 
                         <AffiliateLink href={affiliateLinks.hotels}>
                             Book Hotels
-                        </AffiliateLink>
-
-
-                        {/* <a href="#" className="bg-white text-black px-5 py-2 rounded-lg">
-                            Compare Flights
-            </a>
-                        <a href="#" className="bg-white text-black px-5 py-2 rounded-lg">
-                            Book Hotels
-            </a>*/}
+            </AffiliateLink>
                     </div>
                 </section>
-
 
                 {/* INTERNAL LINK */}
                 <section className="text-center">
@@ -266,9 +224,6 @@ export default function RomeVsFlorence() {
                 </section>
 
             </div>
-
-            
-
         </main>
     );
 }
