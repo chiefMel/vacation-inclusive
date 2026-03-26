@@ -23,12 +23,7 @@ export default function HotelCard({ name, desc, link, highlight, primaryCTA }: H
             <p className="mb-4 text-gray-800">{desc}</p>
 
             <AffiliateLink href={link}>
-                <button
-                    className={`px-5 py-2 rounded ${primaryCTA
-                            ? 'bg-black text-white'
-                            : 'border border-gray-700 text-gray-900'
-                        }`}
-                >
+                <button className={`px-5 py-2 rounded ${primaryCTA ? 'bg-black text-white' : 'border border-black text-black'}`}>
                     {primaryCTA ? 'Check Availability' : 'View Hotel'}
                 </button>
             </AffiliateLink>
