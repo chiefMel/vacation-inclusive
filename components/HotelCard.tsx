@@ -6,7 +6,7 @@ interface HotelCardProps {
     desc: string;
     link: string;
     highlight?: string; // e.g., "Best Overall" or "Luxury"
-    primaryCTA?: boolean; // black button if true
+    primaryCTA?: boolean; //black button if true
 }
 
 export default function HotelCard({ name, desc, link, highlight, primaryCTA }: HotelCardProps) {
