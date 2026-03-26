@@ -36,6 +36,5 @@ export default function AreaSection({ title, description, hotels }: AreaSectionP
             </div>
         </section>
     );
-}
 
 }
