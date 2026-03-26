@@ -9,7 +9,7 @@ export default function RomeVsFlorence() {
             heroImageA="/images/rome.jpg"
             heroImageB="/images/florence.jpg"
             quickDecision={[
-                "👉 Choose Rome if it’s your first time in Italy",
+                "👉 Choose Rome if it’s your first time",
                 "👉 Choose Florence for a relaxed, walkable trip",
                 "👉 Visit both if you have 5+ days",
             ]}
