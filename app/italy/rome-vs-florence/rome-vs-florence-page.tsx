@@ -12,7 +12,7 @@ export const metadata = {
 
 export default function RomeVsFlorence() {
     return (
-        <main className="bg-white text-gray-900">
+        <main className="py-16 bg-white text-gray-900">
 
             {/* HERO */}
             <section className="relative h-[400px]">
@@ -50,7 +50,7 @@ export default function RomeVsFlorence() {
         </Link>
 
                 {/* QUICK DECISION */}
-                <section className="bg-gray-50 p-6 rounded-2xl space-y-4">
+                <section className="py-12 bg-gray-50 p-6 rounded-2xl space-y-4">
                     <h2 className="text-2xl font-semibold">Quick Decision</h2>
                     <ul className="space-y-2 text-gray-700">
                         <li>👉 Choose <strong>Rome</strong> if it’s your first time in Italy</li>
@@ -100,7 +100,7 @@ export default function RomeVsFlorence() {
 
 
                     {/* Florence */}
-                    <div className="border rounded-2xl overflow-hidden">
+                    <div className="py-16 border rounded-2xl overflow-hidden">
                         <div className="relative h-48">
                             <Image
                                 src="/images/florence.jpg"
