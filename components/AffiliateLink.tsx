@@ -35,7 +35,7 @@ export default function AffiliateLink({
   text-sm font-medium
   transition
   active:scale-95
-  ${className || "bg-blue-600 text-white hover:bg-blue-700"}
+  ${className || "bg-black text-white hover:bg-gray-800"}
 `}
         >
             {children}

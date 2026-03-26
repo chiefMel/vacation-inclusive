@@ -21,7 +21,7 @@ export default function RomeVsVenice() {
                     fill
                     className="object-cover"
                 />
-                <div className="absolute inset-0 bg-black/40" />
+                <div className="absolute inset-0 bg-black/25" />
 
                 <div className="absolute inset-0 flex items-center justify-center text-center px-6">
                     <div className="text-white space-y-4 max-w-2xl">
@@ -39,7 +39,7 @@ export default function RomeVsVenice() {
                     <p className="font-medium mb-2">
                         Compare hotel prices in Rome & Venice for your travel dates
     </p>
-                    <AffiliateLink href={affiliateLinks.hotels} className="bg-white text-black">
+                    <AffiliateLink href={affiliateLinks.hotels} className="bg-white text-black border border-gray-300 hover:bg-gray-100">
                         Check Prices Now
     </AffiliateLink>
                 </div>
@@ -110,7 +110,9 @@ export default function RomeVsVenice() {
                         <li>✖ Large and busy</li>
                     </ul>
 
-                    <AffiliateLink href={affiliateLinks.hotels}>
+                    <AffiliateLink href={affiliateLinks.hotels}
+                     className="bg-white text-black border border-gray-300 hover:bg-gray-100"
+                    >
                         Find hotels in Rome
           </AffiliateLink>
                 </section>
@@ -125,7 +127,7 @@ export default function RomeVsVenice() {
                         <li>✖ Expensive and crowded</li>
                     </ul>
 
-                    <AffiliateLink href={affiliateLinks.hotels}>
+                    <AffiliateLink href={affiliateLinks.hotels} className="bg-white text-black border border-gray-300 hover:bg-gray-100">
                         Find hotels in Venice
           </AffiliateLink>
                 </section>
