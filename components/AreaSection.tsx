@@ -1,40 +1,35 @@
 // app/italy/where-to-stay-florence/components/AreaSection.tsx
 import HotelCard from './HotelCard';
 
-interface Hotel {
-    name: string;
-    desc: string;
-    link: string;
-    highlight?: string;
-}
-
 interface AreaSectionProps {
     title: string;
     description: string;
-    hotels: Hotel[];
+    hotels: {
+        name: string;
+        desc: string;
+        link: string;
+        highlight?: string;
+    }[];
 }
 
 export default function AreaSection({ title, description, hotels }: AreaSectionProps) {
     return (
-        <section className="py-12 border-t border-gray-300 ">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">{title}</h2>
-
-            <p className="mb-6 text-gray-800">
-                {description}
-            </p>
+        <section className="py-12">
+            <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-2">{title}</h2>
+            <p className="text-gray-700 mb-6">{description}</p>
 
             <div className="grid gap-6 md:grid-cols-2">
-                {hotels.map((hotel) => (
+                {hotels.map((hotel, idx) => (
                     <HotelCard
-                        key={hotel.name}
+                        key={idx}
                         name={hotel.name}
                         desc={hotel.desc}
-                        link={hotel.link}
                         highlight={hotel.highlight}
+                        link={hotel.link}
+                        primaryCTA={false} // secondary button for AreaSection
                     />
                 ))}
             </div>
         </section>
     );
-
 }

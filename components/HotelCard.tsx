@@ -5,25 +5,35 @@ interface HotelCardProps {
     name: string;
     desc: string;
     link: string;
-    highlight?: string; // e.g., "Best Overall" or "Luxury"
-    primaryCTA?: boolean; //black button if true
+    highlight?: string;
+    primaryCTA?: boolean; // true = main CTA (Quick Picks), false = secondary (AreaSection)
 }
 
-export default function HotelCard({ name, desc, link, highlight, primaryCTA }: HotelCardProps) {
+export default function HotelCard({
+    name,
+    desc,
+    link,
+    highlight,
+    primaryCTA = false,
+}: HotelCardProps) {
     return (
-        <div className="border border-gray-500 rounded-2xl p-6 shadow-md hover:shadow-lg scale-[1.01] transition bg-white">
-            <h3 className="text-xl font-semibold text-gray-900 mb-1">{name}</h3>
-
+        <div className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition transform hover:scale-[1.01]">
             {highlight && (
-                <span className="text-sm font-medium text-gray-800 mb-2 block">
+                <span className="inline-block text-xs font-semibold border border-black px-2 py-1 mb-2">
                     {highlight}
                 </span>
             )}
-
-            <p className="mb-4 text-gray-800">{desc}</p>
+            <h3 className="text-gray-800 font-semibold text-lg mb-1">{name}</h3>
+            <p className="text-gray-700 mb-4">{desc}</p>
 
             <AffiliateLink href={link}>
-                <button className={`px-5 py-2 rounded ${primaryCTA ? 'bg-black text-white' : 'border border-black text-black'}`}>
+                <button
+                    className={`px-5 py-2 rounded transition w-full text-center
+            ${primaryCTA
+                            ? 'bg-black text-white hover:opacity-90'
+                            : 'border border-black text-black hover:bg-black hover:text-white'}
+          `}
+                >
                     {primaryCTA ? 'Check Availability' : 'View Hotel'}
                 </button>
             </AffiliateLink>

@@ -77,7 +77,6 @@ export default function WhereToStayFlorence() {
                         link: "https://www.booking.com/index.html",
                     },
                 ]}
-                
             />
 
             <AreaSection
