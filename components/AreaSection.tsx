@@ -16,14 +16,14 @@ interface AreaSectionProps {
 
 export default function AreaSection({ title, description, hotels }: AreaSectionProps) {
     return (
-        <section className="py-12 border-t border-gray-300">
+        <section className="py-12 border-t border-gray-300 ">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">{title}</h2>
 
             <p className="mb-6 text-gray-800">
                 {description}
             </p>
 
-            <div className="grid gap-6 md:grid-cols-2">
+            <div className="text-white grid gap-6 md:grid-cols-2">
                 {hotels.map((hotel) => (
                     <HotelCard
                         key={hotel.name}
