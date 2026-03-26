@@ -23,7 +23,7 @@ export default function AreaSection({ title, description, hotels }: AreaSectionP
                 {description}
             </p>
 
-            <div className="text-white grid gap-6 md:grid-cols-2">
+            <div className="grid gap-6 md:grid-cols-2">
                 {hotels.map((hotel) => (
                     <HotelCard
                         key={hotel.name}
