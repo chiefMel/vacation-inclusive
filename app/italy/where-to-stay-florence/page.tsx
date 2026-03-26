@@ -34,14 +34,14 @@ export default function WhereToStayFlorence() {
                         highlight="Best Overall"
                         desc="Steps from the Duomo with modern rooms, excellent breakfast, and consistently high ratings—one of the most booked hotels in Florence."
                         link="https://www.booking.com/index.html"
-                        primaryCTA
+                        primaryCTA={true}
                     />
                     <HotelCard
                         name="Four Seasons Firenze"
                         highlight="Luxury"
                         desc="A peaceful luxury retreat with private gardens, spa, and world-class service just minutes from the historic center."
                         link="https://www.booking.com/index.html"
-                        primaryCTA
+                        primaryCTA={true}
                     />
                 </div>
             </section>
