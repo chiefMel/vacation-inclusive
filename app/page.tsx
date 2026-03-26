@@ -20,7 +20,7 @@ export default function Home() {
                   className="absolute inset-0 w-full h-full object-cover scale-105 hover:scale-110 transition duration-700"
               />
 
-              <div className="absolute inset-0 bg-black/15" />
+              <div className="absolute inset-0 bg-black/25" />
 
               <div className="relative z-10 flex items-center justify-center h-full text-center text-white px-6">
                   <div>
@@ -95,7 +95,28 @@ export default function Home() {
                       </div>
 
                   </Link>
- 
+
+                  {/* Rome vs Venice Card */}
+
+                  <Link href="/italy/rome-vs-venice" className="group border rounded-lg overflow-hidden hover:shadow border rounded-lg overflow-hidden hover:shadow">
+
+                      <img
+                          src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad"
+                          alt="Rome vs Florence"
+                          className="w-full h-48 object-cover scale-105 group-hover:scale-110 transition"
+                      />
+
+                      <div className="p-6">
+                          <h3 className="text-xl font-semibold mb-2">
+                              Rome vs Venice
+    </h3>
+                          <p className="text-gray-600">
+                              Decide where to go first based on your travel style.
+    </p>
+                      </div>
+
+                  </Link>
+
 
                   { /*Best time to visit*/}
                   
