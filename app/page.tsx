@@ -162,6 +162,26 @@ export default function Home() {
 
                   </Link>
 
+                  { /* Where to stay in Venice*/}
+                  <Link href="/italy/where-to-stay-florence" className="group border rounded-lg overflow-hidden hover:shadow border rounded-lg overflow-hidden hover:shadow">
+
+                      <img
+                          src="/images/italy.jpg"
+                          alt="Where to stay in Florence"
+                          className="w-full h-48 object-cover scale-105 group-hover:scale-110 transition"
+                      />
+
+                      <div className="p-6">
+                          <h3 className="text-xl font-semibold mb-2">
+                              Where to Stay in Florence
+        </h3>
+
+                          <p className="text-gray-600">
+                              Steps from the Duomo with modern rooms and consistently high ratings—one of the most booked hotels in Florence.
+        </p>
+                      </div>
+
+                  </Link>
 
               </div>
           </section>
