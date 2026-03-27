@@ -22,7 +22,6 @@ export default function WhereToStayFlorence() {
           </button>
                 </AffiliateLink>
             </section>
-            {/**/}
 
             {/* QUICK PICKS */}
             <section className="py-12">

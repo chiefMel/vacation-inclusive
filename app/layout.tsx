@@ -57,26 +57,6 @@ export default function RootLayout({
 
                     </div>
                 </footer>
-                {/*
-                    <footer className="text-center text-sm text-gray-500 py-10 border-t mt-16">
-                    <p>© 2026 Vacation-Inclusive</p>
-                    <p>Travel guides and itinerary planning resources.</p>
-                    <p className="mt-2 text-xs text-gray-400">
-                        This site contains affiliate links. We may earn a commission at no extra cost to you.
-</p>
-                </footer>*/}
-                {/*
-                <footer className="border-t mt-16">
-                    <div className="max-w-5xl mx-auto px-6 py-8 text-center text-gray-500 text-sm">
-                        <p>© 2026 Vacation-Inclusive</p>
-                        <p>Travel guides and itinerary planning resources.</p>
-                        <p className="mt-2 text-xs">
-                            This site contains affiliate links. We may earn a commission at no extra cost to you.
-    </p>
-                    </div>
-                </footer>*/}
-
-
             </body>
         </html>
     );
