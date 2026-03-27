@@ -31,7 +31,7 @@ export default function ItalyItineraryPage() {
                         <p className="text-lg">
                             Rome, Florence & Venice — simple route, no car needed.
             </p>
-                        <<div className="flex flex-col sm:flex-row gap-3 justify-center">
+                        <div className="flex flex-col sm:flex-row gap-3 justify-center">
                             <AffiliateLink href={affiliateLinks.hotels.rome.center}>
                                 Rome Hotels
   </AffiliateLink>
