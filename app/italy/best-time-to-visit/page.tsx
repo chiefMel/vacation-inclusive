@@ -91,7 +91,7 @@ export default function BestTimeItaly() {
                             Lowest prices and fewer tourists, but cooler weather.
             </p>
                     </div>
-                    <AffiliateLink href={affiliateLinks.hotelshotelsForItinerary.romeFlorenceVenice}>
+                    <AffiliateLink href={affiliateLinks.hotelsForItinerary.romeFlorenceVenice}>
                         Check hotel prices for your dates
 </AffiliateLink>
                 </section>
