@@ -31,9 +31,19 @@ export default function ItalyItineraryPage() {
                         <p className="text-lg">
                             Rome, Florence & Venice — simple route, no car needed.
             </p>
-                        <AffiliateLink href={affiliateLinks.hotelsForItinerary.romeFlorenceVenice}>
-                            Check hotel availability for this itinerary
-</AffiliateLink>
+                        <<div className="flex flex-col sm:flex-row gap-3 justify-center">
+                            <AffiliateLink href={affiliateLinks.hotels.rome.center}>
+                                Rome Hotels
+  </AffiliateLink>
+
+                            <AffiliateLink href={affiliateLinks.hotels.florence.center}>
+                                Florence Hotels
+  </AffiliateLink>
+
+                            <AffiliateLink href={affiliateLinks.hotels.venice.center}>
+                                Venice Hotels
+  </AffiliateLink>
+</div>
                     </div>
                 </div>
             </section>
@@ -62,6 +72,16 @@ export default function ItalyItineraryPage() {
                     </ul>
                 </section>
 
+                <div className="border p-4 rounded-xl text-center">
+                    <p className="font-medium mb-2">
+                        Hotels fill up fast in peak season — check your dates now
+  </p>
+
+                    <AffiliateLink href={affiliateLinks.hotels.rome.center}>
+                        Check Availability in Rome
+  </AffiliateLink>
+                </div>
+
                 {/* DAY SECTIONS */}
                 <section className="space-y-8">
 
@@ -73,7 +93,7 @@ export default function ItalyItineraryPage() {
             </p>
 
                         <AffiliateLink href={affiliateLinks.hotels.rome.center}>
-                            Find hotels in Rome
+                            Check Rome hotel prices
 </AffiliateLink>
                        
                     </div>
@@ -85,11 +105,9 @@ export default function ItalyItineraryPage() {
             </p>
 
                         <AffiliateLink href={affiliateLinks.hotels.florence.center}>
-                            Compare hotels in Florence
+                            See best hotels in Florence
 </AffiliateLink>
-                        {/*<a href="https://www.booking.com/index.html" className="text-blue-600 underline">
-                            Compare hotels in Florence
-            </a>*/}
+                        
                     </div>
 
                     <div className="border p-6 rounded-2xl space-y-3">
@@ -98,7 +116,7 @@ export default function ItalyItineraryPage() {
                             Explore canals, bridges, and unique neighborhoods.
             </p>
                         <AffiliateLink href={affiliateLinks.hotels.venice.center}>
-                            Find stays in Venice
+                            View Venice hotel deals
 </AffiliateLink>
                         {/*<a href="https://www.booking.com/index.html" className="text-blue-600 underline">
                             Find stays in Venice
@@ -118,19 +136,22 @@ export default function ItalyItineraryPage() {
                 </section>
 
                 {/* CTA */}
-                {/*
-                <div className="mt-10 text-center">
-                    <AffiliateLink href={affiliateLinks.hotels}>
-                        Start booking your Italy trip
-  </AffiliateLink>
-                </div>*/}
+                
                 <section className="bg-black text-white p-8 rounded-2xl text-center space-y-4">
                     <h2 className="text-2xl font-semibold">
                         Plan Your Italy Trip
           </h2>
                     <div className="flex justify-center gap-4 flex-wrap">
                         <AffiliateLink href={affiliateLinks.hotels.rome.center}>
-                            Find Hotels in Rome
+                            Rome Hotels
+  </AffiliateLink>
+
+                        <AffiliateLink href={affiliateLinks.hotels.florence.center}>
+                            Florence Hotels
+  </AffiliateLink>
+
+                        <AffiliateLink href={affiliateLinks.hotels.venice.center}>
+                            Venice Hotels
   </AffiliateLink>
 
                         <AffiliateLink href={affiliateLinks.flights}>
@@ -142,15 +163,14 @@ export default function ItalyItineraryPage() {
   </AffiliateLink>
                     </div>
                 </section>
-
+                <p className="text-sm text-gray-600">
+                    Prices change daily — check your travel dates now
+</p>
                 {/* INTERNAL LINK */}
                 <section className="text-center">
-                    <Link
-                        href="/italy/rome-vs-florence"
-                        className="text-blue-600 underline"
-                    >
-                        Not sure where to start? Compare Rome vs Florence →
-          </Link>
+                    <Link href="/italy/where-to-stay-rome" className="underline">
+                        Best areas to stay in Rome →
+</Link>
                 </section>
 
             </div>
