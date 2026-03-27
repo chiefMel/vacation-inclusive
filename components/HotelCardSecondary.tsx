@@ -6,7 +6,7 @@ interface Props {
     desc: string;
     link: string;
     highlight?: string;
-    primaryCTA = false;
+    primaryCTA: boolean;
 }
 
 export default function HotelCardSecondary({ name, desc, link, highlight }: Props) {
