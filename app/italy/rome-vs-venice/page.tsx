@@ -110,7 +110,7 @@ export default function RomeVsVenice() {
                         <li>✖ Large and busy</li>
                     </ul>
 
-                    <AffiliateLink href={affiliateLinks.hotels}
+                    <AffiliateLink href={affiliateLinks.hotels.rome.center}
                     
                     >
                         Find hotels in Rome
