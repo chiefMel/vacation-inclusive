@@ -3,6 +3,7 @@ import AreaSection from '@/components/AreaSection';
 import HotelCard from '@/components/HotelCard';
 import AffiliateLink from '@/components/AffiliateLink';
 import Link from 'next/link';
+import HotelCardPrimary from '@/components/HotelCardPrimary';
 
 export default function WhereToStayFlorence() {
     return (
@@ -25,23 +26,23 @@ export default function WhereToStayFlorence() {
 
             {/* Quick Picks */}
             <section className="py-12">
-                <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
+                <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-6">
                     Best Hotels in Florence (Quick Picks)
-        </h2>
+  </h2>
+
                 <div className="grid gap-6 md:grid-cols-2">
-                    <HotelCard
+                    <HotelCardPrimary
                         name="Hotel Spadai"
                         highlight="Best Overall"
-                        desc="Steps from the Duomo with modern rooms, excellent breakfast, and consistently high ratings—one of the most booked hotels in Florence."
+                        desc="Steps from the Duomo with modern rooms and excellent reviews."
                         link="https://www.booking.com/index.html"
-                        primaryCTA={true}
                     />
-                    <HotelCard
+
+                    <HotelCardPrimary
                         name="Four Seasons Firenze"
                         highlight="Luxury"
-                        desc="A peaceful luxury retreat with private gardens, spa, and world-class service just minutes from the historic center."
+                        desc="Luxury retreat with gardens and spa near the historic center."
                         link="https://www.booking.com/index.html"
-                        primaryCTA={true}
                     />
                 </div>
             </section>
