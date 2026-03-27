@@ -1,4 +1,5 @@
-import { NextResponse } from "next/server";
+
+import { NextRequest, NextResponse } from "next/server";
 
 const links: Record<string, string> = {
     "rome-hotels": "https://expedia.com/affiliates/hotel-search-rome.CioQm9y",
@@ -7,13 +8,15 @@ const links: Record<string, string> = {
 };
 
 export async function GET(
-    req: Request,
-    { params }: { params: { slug: string } }
+    request: NextRequest,
+    context: { params: Promise<{ slug: string }> }
 ) {
-    const url = links[params.slug];
+    const { slug } = await context.params;
+
+    const url = links[slug];
 
     if (!url) {
-        return NextResponse.redirect(new URL("/", req.url));
+        return NextResponse.redirect(new URL("/", request.url));
     }
 
     return NextResponse.redirect(url);
