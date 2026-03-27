@@ -50,7 +50,7 @@ export default function ItalyItineraryPage() {
             {/*
             <img
                 src=""
-                alt=" travel route"
+                alt=" route"
                 className="w-full h-[300px] object-cover rounded-xl my-8"
             />
             {/* CONTENT */}
