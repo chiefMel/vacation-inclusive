@@ -77,9 +77,7 @@ export default function ItalyItineraryPage() {
                         Check Availability in Rome
   </AffiliateLink>
                 </div>
-                <p className="text-sm text-gray-600">
-                    Prices change daily — check your travel dates now
-</p>
+                
                 {/* DAY SECTIONS */}
                 <section className="space-y-8">
 
@@ -122,7 +120,9 @@ export default function ItalyItineraryPage() {
                     </div>
 
                 </section>
-
+                <p className="text-sm text-gray-600">
+                    Prices change daily — check your travel dates now
+</p>
                 {/* COST */}
                 <section className="bg-gray-50 p-6 rounded-2xl space-y-3">
                     <h2 className="text-2xl font-semibold">Estimated Cost</h2>
