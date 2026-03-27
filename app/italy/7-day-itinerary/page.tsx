@@ -31,7 +31,7 @@ export default function ItalyItineraryPage() {
                         <p className="text-lg">
                             Rome, Florence & Venice — simple route, no car needed.
             </p>
-                        <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                        <<div className="flex flex-col sm:flex-row gap-3 justify-center">
                             <AffiliateLink href={affiliateLinks.hotels.rome.center}>
                                 Rome Hotels
   </AffiliateLink>
@@ -63,6 +63,9 @@ export default function ItalyItineraryPage() {
 
                 {/* QUICK PLAN */}
                 <section className="bg-gray-50 p-6 rounded-2xl space-y-4">
+                    <p className="text-sm text-gray-600">
+                        Prices change daily — check your travel dates now
+</p>
                     <h2 className="text-2xl font-semibold">Quick Plan</h2>
                     <ul className="grid md:grid-cols-2 gap-2 text-gray-700">
                         <li>Day 1–2: Rome</li>
@@ -163,14 +166,15 @@ export default function ItalyItineraryPage() {
   </AffiliateLink>
                     </div>
                 </section>
-                <p className="text-sm text-gray-600">
-                    Prices change daily — check your travel dates now
-</p>
+                
                 {/* INTERNAL LINK */}
                 <section className="text-center">
-                    <Link href="/italy/where-to-stay-rome" className="underline">
+                    <Link
+                        href="/italy/where-to-stay-rome"
+                        className="text-blue-600 underline"
+                    >
                         Best areas to stay in Rome →
-</Link>
+          </Link>
                 </section>
 
             </div>
