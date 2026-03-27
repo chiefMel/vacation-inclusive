@@ -163,7 +163,7 @@ export default function Home() {
                   </Link>
 
                   {/* Where to stay in Florence*/}
-                  {/*<Link href="/italy/where-to-stay-florence" className="group border rounded-lg overflow-hidden hover:shadow border rounded-lg overflow-hidden hover:shadow">
+                  <Link href="/italy/where-to-stay-florence" className="group border rounded-lg overflow-hidden hover:shadow border rounded-lg overflow-hidden hover:shadow">
 
                       <img
                           src="/images/italy.jpg"
@@ -181,7 +181,7 @@ export default function Home() {
                         </p>
                       </div>
 
-                  </Link>*/}
+                  </Link>
                   
 
               </div>
