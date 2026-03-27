@@ -47,12 +47,7 @@ export default function ItalyItineraryPage() {
                     </div>
                 </div>
             </section>
-            {/*
-            <img
-                src=""
-                alt=" route"
-                className="w-full h-[300px] object-cover rounded-xl my-8"
-            />
+            
             {/* CONTENT */}
             <div className="max-w-4xl mx-auto px-6 py-16 space-y-16">
 
