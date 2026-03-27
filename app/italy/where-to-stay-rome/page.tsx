@@ -66,7 +66,7 @@ export default function WhereToStayRome() {
                             Prices vary by location — check current availability:
             </p>
 
-                        <AffiliateLink href={affiliateLinks.hotels}>
+                        <AffiliateLink href={affiliateLinks.hotels.rome.center}>
                             Find hotels in Historic Center
             </AffiliateLink>
                     </div>
@@ -83,12 +83,12 @@ export default function WhereToStayRome() {
                             Check available stays in this area:
             </p>
 
-                        <AffiliateLink href={affiliateLinks.hotels}>
+                        <AffiliateLink href={affiliateLinks.hotels.rome.trastevere}>
                             Explore Trastevere hotels
             </AffiliateLink>
                     </div>
 
-                    {/* Termini */}
+                    {/* Colosseum */}
                     <div className="border p-6 rounded-2xl">
                         <h2 className="text-xl font-semibold mb-2">Near Termini</h2>
                         <p className="text-gray-600 mb-4">
@@ -99,7 +99,7 @@ export default function WhereToStayRome() {
                             Compare budget-friendly options:
             </p>
 
-                        <AffiliateLink href={affiliateLinks.hotels}>
+                        <AffiliateLink href={affiliateLinks.hotels.rome.colosseum}>
                             Find budget hotels near Termini
             </AffiliateLink>
                     </div>
