@@ -27,15 +27,15 @@ export default function HotelCard({
       <p className="text-gray-700 mb-4">{desc}</p>
 
       <AffiliateLink href={link}>
-        <button
-          className={`px-5 py-2 rounded transition w-full text-center
-            ${primaryCTA
-              ? 'bg-black text-white hover:opacity-90'
-              : 'border border-black text-black hover:bg-black hover:text-white'}
-          `}
-        >
-          {primaryCTA ? 'Check Availability' : 'View Hotel'}
-        </button>
+              <button
+                  className={`w-full px-5 py-2 rounded font-semibold transition
+    ${primaryCTA
+                          ? 'bg-black text-white hover:opacity-90'
+                          : 'border border-black text-black hover:bg-black hover:text-white'}
+  `}
+              >
+                  {primaryCTA ? 'Check Availability' : 'View Hotel'}
+              </button>
       </AffiliateLink>
     </div>
   );
