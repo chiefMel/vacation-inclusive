@@ -12,8 +12,6 @@ interface AreaSectionProps {
     }[];
 }
 
-import HotelCard from './HotelCard';
-
 export default function AreaSection({ title, description, hotels }) {
     return (
         <section className="py-12">
