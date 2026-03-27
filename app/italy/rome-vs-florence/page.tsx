@@ -99,7 +99,7 @@ export default function RomeVsFlorence() {
                     </div>
 
                     <div className="text-center mt-6">
-                        <AffiliateLink href={affiliateLinks.hotels}>
+                        <AffiliateLink href={affiliateLinks.hotelsForItinerary.romeFlorenceVenice}>
                             Compare hotel prices in Rome & Florence
             </AffiliateLink>
                     </div>
