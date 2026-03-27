@@ -4,6 +4,7 @@ export const affiliateLinks = {
     flights: "https://www.skyscanner.com",
     tours: "https://www.getyourguide.com/",
 
+    
     hotelsForItinerary: {
         romeFlorenceVenice: "https://expedia.com/affiliates/rome-hotels-albergo-delle-regioni.CarigYb", // main CTA link for 7-day Italy itinerary
     },
@@ -15,6 +16,7 @@ export const affiliateLinks = {
             center: "https://expedia.com/affiliates/rome-hotels-hotel-nazionale.J3xmB92",
             trastevere: "https://expedia.com/affiliates/rome-hotels-giuditta-in-trastevere.isdjFuw",
             colosseum: "https://expedia.com/affiliates/rome-hotels-hotel-viminale.0bvznqz",
+            all: "https://expedia.com/affiliates/hotel-search-rome.4iBF8Qh",
         },
         florence: {
             center: "https://expedia.com/affiliates/florence-hotels-arte-boutique-hotel.5qSTu1U",
