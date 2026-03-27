@@ -26,8 +26,8 @@ export default function HotelCardSecondary({ name, desc, link, highlight, primar
 
                 <button
                     className={`w-full px-5 py-2 rounded font-semibold transition
-    ${primaryCta
-                            ? 'bg-black text-white hover:opacity-90'
+                    ${primaryCta
+                            ? ' text-white hover:opacity-90'
                             : 'border border-black text-white hover:bg-black hover:text-white'}
   `}
                 >
