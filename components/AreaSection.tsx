@@ -34,7 +34,7 @@ export default function AreaSection({
                         desc={hotel.desc}
                         link={hotel.link}
                         highlight={hotel.highlight}
-                        promaryCta="false"
+                        primaryCta="false"
                     />
                 ))}
             </div>
