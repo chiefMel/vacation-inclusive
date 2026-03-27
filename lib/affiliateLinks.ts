@@ -4,6 +4,10 @@ export const affiliateLinks = {
     flights: "https://www.skyscanner.com",
     tours: "https://www.getyourguide.com/",
 
+    hotelsForItinerary: {
+        romeFlorenceVenice: "https://expedia.com/affiliates/rome-hotels-albergo-delle-regioni.CarigYb", // main CTA link for 7-day Italy itinerary
+    }
+
     // Hotels per city / neighborhood
     hotels: {
         rome: {
@@ -12,14 +16,14 @@ export const affiliateLinks = {
             colosseum: "https://expedia.com/affiliates/rome-hotels-hotel-viminale.0bvznqz",
         },
         florence: {
-            center: "YOUR_EXAMPLE_URL_Florence_Center",
-            duomo: "YOUR_EXAMPLE_URL_Duomo",
-            santaCroce: "YOUR_EXAMPLE_URL_SantaCroce",
+            center: "https://expedia.com/affiliates/florence-hotels-arte-boutique-hotel.5qSTu1U",
+            duomo: "https://expedia.com/affiliates/florence-hotels-hotel-accademia.K0fiRRi",
+            santaCroce: "https://expedia.com/affiliates/florence-hotels-hotel-david.rHQLjExe",
         },
         venice: {
-            center: "YOUR_EXAMPLE_URL_Venice_Center",
-            sanMarco: "YOUR_EXAMPLE_URL_SanMarco",
-            cannaregio: "YOUR_EXAMPLE_URL_Cannaregio",
+            center: "https://expedia.com/affiliates/venice-hotels-hotel-montecarlo.8bOWCfT",
+            sanMarco: "https://expedia.com/affiliates/venice-hotels-hotel-san-marco.8SjXnzT",
+            cannaregio: "https://expedia.com/affiliates/venice-hotels-carnival-palace-hotel.Vy6ZxkC",
         },
     },
 };

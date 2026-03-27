@@ -31,7 +31,7 @@ export default function ItalyItineraryPage() {
                         <p className="text-lg">
                             Rome, Florence & Venice — simple route, no car needed.
             </p>
-                        <AffiliateLink href={affiliateLinks.hotels}>
+                        <AffiliateLink href={affiliateLinks.hotelsForItinerary.romeFlorenceVenice}>
                             Check hotel availability for this itinerary
 </AffiliateLink>
                     </div>
@@ -72,12 +72,10 @@ export default function ItalyItineraryPage() {
                             Expect crowds but unmatched history.
             </p>
 
-                        <AffiliateLink href={affiliateLinks.hotels}>
+                        <AffiliateLink href={affiliateLinks.hotels.rome.center}>
                             Find hotels in Rome
 </AffiliateLink>
-                        {/*<a href="#" className="text-blue-600 underline">
-                            Find hotels in Rome
-            </a>*/}
+                       
                     </div>
 
                     <div className="border p-6 rounded-2xl space-y-3">
@@ -86,7 +84,7 @@ export default function ItalyItineraryPage() {
                             A compact city known for Renaissance art and walkable streets.
             </p>
 
-                        <AffiliateLink href={affiliateLinks.hotels}>
+                        <AffiliateLink href={affiliateLinks.hotels.florence.center}>
                             Compare hotels in Florence
 </AffiliateLink>
                         {/*<a href="https://www.booking.com/index.html" className="text-blue-600 underline">
@@ -99,7 +97,7 @@ export default function ItalyItineraryPage() {
                         <p className="text-gray-600">
                             Explore canals, bridges, and unique neighborhoods.
             </p>
-                        <AffiliateLink href={affiliateLinks.hotels}>
+                        <AffiliateLink href={affiliateLinks.hotels.venice.center}>
                             Find stays in Venice
 </AffiliateLink>
                         {/*<a href="https://www.booking.com/index.html" className="text-blue-600 underline">
@@ -131,17 +129,17 @@ export default function ItalyItineraryPage() {
                         Plan Your Italy Trip
           </h2>
                     <div className="flex justify-center gap-4 flex-wrap">
-                        <AffiliateLink href={affiliateLinks.hotels}>
-                            Find Hotels
-</AffiliateLink>
+                        <AffiliateLink href={affiliateLinks.hotels.rome.center}>
+                            Find Hotels in Rome
+  </AffiliateLink>
 
                         <AffiliateLink href={affiliateLinks.flights}>
                             Compare Flights
-</AffiliateLink>
+  </AffiliateLink>
 
                         <AffiliateLink href={affiliateLinks.tours}>
                             Book Tours
-</AffiliateLink>
+  </AffiliateLink>
                     </div>
                 </section>
 

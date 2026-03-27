@@ -100,7 +100,7 @@ export default function WhereToStayRome() {
             </p>
 
                         <AffiliateLink href={affiliateLinks.hotels.rome.colosseum}>
-                            Find budget hotels near Termini
+                            Find budget hotels near Colosseum
             </AffiliateLink>
                     </div>
 
