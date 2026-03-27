@@ -43,7 +43,7 @@ export default function ItalyItineraryPage() {
                             <AffiliateLink href={affiliateLinks.hotels.venice.center}>
                                 Venice Hotels
   </AffiliateLink>
-</div>
+                        </div>
                     </div>
                 </div>
             </section>
