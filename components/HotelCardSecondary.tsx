@@ -31,7 +31,7 @@ export default function HotelCardSecondary({ name, desc, link, highlight, primar
                             : 'border border-black text-black hover:bg-black hover:text-white'}
   `}
                 >
-                    {primaryCTA ? 'Check Availability' : 'View Hotel'}
+                    {primaryCta ? 'Check Availability' : 'View Hotel'}
                 </button>
 
                 {/*<button className="w-full border border-black text-white px-5 py-2 rounded font-semibold">
