@@ -1,7 +1,24 @@
 // components/AreaSection.tsx
 import HotelCardSecondary from './HotelCardSecondary';
 
-export default function AreaSection({ title, description, hotels }) {
+interface Hotel {
+    name: string;
+    desc: string;
+    link: string;
+    highlight?: string;
+}
+
+interface AreaSectionProps {
+    title: string;
+    description: string;
+    hotels: Hotel[];
+}
+
+export default function AreaSection({
+    title,
+    description,
+    hotels,
+}: AreaSectionProps) {
     return (
         <section className="py-12">
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-2">
