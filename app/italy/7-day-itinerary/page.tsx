@@ -49,7 +49,7 @@ export default function ItalyItineraryPage() {
             </section>
             {/*
             <img
-                src="https://images.unsplash.com/photo-1531572753322-ad063cecc140"
+                src=""
                 alt="Italy travel route"
                 className="w-full h-[300px] object-cover rounded-xl my-8"
             />
