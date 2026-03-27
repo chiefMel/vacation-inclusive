@@ -112,7 +112,7 @@ export default function WhereToStayRome() {
                         Compare prices across all Rome neighborhoods:
           </p>
 
-                    <AffiliateLink href={affiliateLinks.hotels.all}>
+                    <AffiliateLink href={affiliateLinks.hotels.rome.all}>
                         See all available hotels in Rome
           </AffiliateLink>
                 </section>
