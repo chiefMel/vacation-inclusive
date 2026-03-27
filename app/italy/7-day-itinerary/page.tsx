@@ -55,12 +55,12 @@ export default function ItalyItineraryPage() {
                 <Link href="/" className="text-blue-600 underline">
                     ← Back to Home
         </Link>
-
+                <p className="text-sm text-gray-600">
+                    Prices change daily — check your travel dates now
+</p>
                 {/* QUICK PLAN */}
                 <section className="bg-gray-50 p-6 rounded-2xl space-y-4">
-                    <p className="text-sm text-gray-600">
-                        Prices change daily — check your travel dates now
-</p>
+                    
                     <h2 className="text-2xl font-semibold">Quick Plan</h2>
                     <ul className="grid md:grid-cols-2 gap-2 text-gray-700">
                         <li>Day 1–2: Rome</li>
