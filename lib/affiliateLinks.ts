@@ -8,7 +8,7 @@ export const affiliateLinks = {
     hotels: {
         rome: {
             center: "https://expedia.com/affiliates/rome-hotels-hotel-nazionale.J3xmB92",
-            trastevere: "https://expedia.com/affiliates/rome-hotels-giuditta-in-trastevere.isdjFuw"
+            trastevere: "https://expedia.com/affiliates/rome-hotels-giuditta-in-trastevere.isdjFuw",
             colosseum: "https://expedia.com/affiliates/rome-hotels-hotel-viminale.0bvznqz",
         },
         florence: {
