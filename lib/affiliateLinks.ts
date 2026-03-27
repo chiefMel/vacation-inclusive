@@ -6,10 +6,11 @@ export const affiliateLinks = {
 
     hotelsForItinerary: {
         romeFlorenceVenice: "https://expedia.com/affiliates/rome-hotels-albergo-delle-regioni.CarigYb", // main CTA link for 7-day Italy itinerary
-    }
+    },
 
     // Hotels per city / neighborhood
     hotels: {
+
         rome: {
             center: "https://expedia.com/affiliates/rome-hotels-hotel-nazionale.J3xmB92",
             trastevere: "https://expedia.com/affiliates/rome-hotels-giuditta-in-trastevere.isdjFuw",
