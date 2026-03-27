@@ -13,18 +13,21 @@ export const affiliateLinks = {
     hotels: {
 
         rome: {
-            center: "https://expedia.com/affiliates/rome-hotels-hotel-nazionale.J3xmB92",
+            center: "/go/rome-hotels",
+            //center: "https://expedia.com/affiliates/rome-hotels-hotel-nazionale.J3xmB92",
             trastevere: "https://expedia.com/affiliates/rome-hotels-giuditta-in-trastevere.isdjFuw",
             colosseum: "https://expedia.com/affiliates/rome-hotels-hotel-viminale.0bvznqz",
             all: "https://expedia.com/affiliates/hotel-search-rome.4iBF8Qh",
         },
         florence: {
-            center: "https://expedia.com/affiliates/florence-hotels-arte-boutique-hotel.5qSTu1U",
+            center: "/go/florence-hotels",
+            //center: "https://expedia.com/affiliates/florence-hotels-arte-boutique-hotel.5qSTu1U",
             duomo: "https://expedia.com/affiliates/florence-hotels-hotel-accademia.K0fiRRi",
             santaCroce: "https://expedia.com/affiliates/florence-hotels-hotel-david.rHQLjExe",
         },
         venice: {
-            center: "https://expedia.com/affiliates/venice-hotels-hotel-montecarlo.8bOWCfT",
+            center: "/go/venice-hotels",
+            //center: "https://expedia.com/affiliates/venice-hotels-hotel-montecarlo.8bOWCfT",
             sanMarco: "https://expedia.com/affiliates/venice-hotels-hotel-san-marco.8SjXnzT",
             cannaregio: "https://expedia.com/affiliates/venice-hotels-carnival-palace-hotel.Vy6ZxkC",
         },
