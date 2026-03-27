@@ -90,7 +90,7 @@ export default function WhereToStayRome() {
 
                     {/* Colosseum */}
                     <div className="border p-6 rounded-2xl">
-                        <h2 className="text-xl font-semibold mb-2">Near Termini</h2>
+                        <h2 className="text-xl font-semibold mb-2">Near Colosseum</h2>
                         <p className="text-gray-600 mb-4">
                             Best for budget travelers and easy access to trains and transport.
             </p>
