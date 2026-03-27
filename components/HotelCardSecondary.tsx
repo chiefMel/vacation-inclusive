@@ -1,7 +1,14 @@
 // components/HotelCardSecondary.tsx
 import AffiliateLink from '@/components/AffiliateLink';
 
-export default function HotelCardSecondary({ name, desc, link, highlight }) {
+interface Props {
+    name: string;
+    desc: string;
+    link: string;
+    highlight?: string;
+}
+
+export default function HotelCardSecondary({ name, desc, link, highlight }: Props) {
     return (
         <div className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
             {highlight && (
