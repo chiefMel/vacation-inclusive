@@ -102,7 +102,7 @@ export default function WhereToStayFlorence() {
         </p>
             </section>
 
-            {/* FAQ Section */}
+            {/*  FAQ Section */}
             <section className="py-12">
                 <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">FAQs About Staying in Florence</h2>
                 <div className="space-y-4">
