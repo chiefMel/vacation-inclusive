@@ -21,9 +21,9 @@ export default function HotelCardSecondary({ name, desc, link, highlight }: Prop
             <p className="text-gray-700 mb-4">{desc}</p>
 
             <AffiliateLink href={link}>
-                <button className="w-full border border-black text-black px-5 py-2 rounded font-semibold">
+                <button className="w-full border border-black text-white px-5 py-2 rounded font-semibold">
                     View Hotel
-        </button>
+                </button>
             </AffiliateLink>
         </div>
     );
