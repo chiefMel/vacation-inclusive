@@ -6,10 +6,10 @@ interface Props {
     desc: string;
     link: string;
     highlight?: string;
-    primaryCTA: boolean;
+    primaryCta: boolean;
 }
 
-export default function HotelCardSecondary({ name, desc, link, highlight }: Props) {
+export default function HotelCardSecondary({ name, desc, link, highlight, primaryCta}: Props) {
     return (
         <div className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
             {highlight && (
