@@ -21,7 +21,8 @@ export default function BestTimeItaly() {
                     fill
                     className="object-cover"
                 />
-                <div className="absolute inset-0 bg-black/40" />
+                <div className="absolute inset-0 bg-black/25" />
+
 
                 <div className="absolute inset-0 flex items-center justify-center text-center px-6">
                     <div className="text-white space-y-4 max-w-2xl">
@@ -90,7 +91,7 @@ export default function BestTimeItaly() {
                             Lowest prices and fewer tourists, but cooler weather.
             </p>
                     </div>
-                    <AffiliateLink href={affiliateLinks.hotels}>
+                    <AffiliateLink href={affiliateLinks.hotelshotelsForItinerary.romeFlorenceVenice}>
                         Check hotel prices for your dates
 </AffiliateLink>
                 </section>
