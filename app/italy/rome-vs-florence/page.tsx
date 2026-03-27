@@ -128,7 +128,7 @@ export default function RomeVsFlorence() {
                                 <li>✖ Busy and spread out</li>
                             </ul>
 
-                            <AffiliateLink href={affiliateLinks.hotels}>
+                            <AffiliateLink href={affiliateLinks.hotels.rome.center}>
                                 Find hotels in Rome
               </AffiliateLink>
                         </div>
@@ -154,7 +154,7 @@ export default function RomeVsFlorence() {
                                 <li>✖ Fewer major attractions</li>
                             </ul>
 
-                            <AffiliateLink href={affiliateLinks.hotels}>
+                            <AffiliateLink href={affiliateLinks.hotels.florence.center}>
                                 Find hotels in Florence
               </AffiliateLink>
                         </div>
@@ -200,7 +200,7 @@ export default function RomeVsFlorence() {
                             Compare Flights
             </AffiliateLink>
 
-                        <AffiliateLink href={affiliateLinks.hotels}>
+                        <AffiliateLink href={affiliateLinks.hotelsForItinerary.romeFlorenceVenice}>
                             Book Hotels
             </AffiliateLink>
                     </div>
