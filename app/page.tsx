@@ -145,7 +145,7 @@ export default function Home() {
                   <Link href="/italy/where-to-stay-rome" className="group border rounded-lg overflow-hidden hover:shadow border rounded-lg overflow-hidden hover:shadow">
 
                       <img
-                          src="/images/italy.jpg"
+                          src="/images/rome.jpg"
                           alt="Where to stay in Rome"
                           className="w-full h-48 object-cover scale-105 group-hover:scale-110 transition"
                       />
@@ -166,7 +166,7 @@ export default function Home() {
                   <Link href="/italy/where-to-stay-florence" className="group border rounded-lg overflow-hidden hover:shadow border rounded-lg overflow-hidden hover:shadow">
 
                       <img
-                          src="/images/italy.jpg"
+                          src="/images/florence.jpg"
                           alt="Where to stay in Florence"
                           className="w-full h-48 object-cover scale-105 group-hover:scale-110 transition"
                       />
