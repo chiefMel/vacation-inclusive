@@ -13,7 +13,7 @@ export default function ItalyItineraryPage() {
     return (
         <main className="bg-white text-gray-900">
 
-            {/* HERO */}
+            {/* HERO  */}
             <section className="relative h-[400px]">
                 <Image
                     src="/images/italy.jpg"
