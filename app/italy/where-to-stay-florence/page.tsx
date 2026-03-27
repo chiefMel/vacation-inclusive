@@ -133,7 +133,7 @@ export default function WhereToStayFlorence() {
             <section className="py-12 text-center text-sm">
                 <Link href="/italy/rome-vs-florence" className="underline mx-2">Rome vs Florence</Link>
                 <Link href="/italy/where-to-stay-rome" className="underline mx-2">Where to Stay in Rome</Link>
-                <Link href="/italy/7-day-italy-itinerary" className="underline mx-2">7-Day Italy Itinerary</Link>
+                <Link href="/italy/7-day-itinerary" className="underline mx-2">7-Day Italy Itinerary</Link>
             </section>
 
         </main>
