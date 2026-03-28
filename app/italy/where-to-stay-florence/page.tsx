@@ -66,6 +66,7 @@ export default function WhereToStayFlorence() {
                 ]}
             />
 
+
             <AreaSection
                 title="Santa Croce"
                 description="Perfect for those who want local artisan vibes and restaurants."
