@@ -14,16 +14,22 @@ export const affiliateLinks = {
 
         rome: {
             center: "/go/rome-hotels",
+            trastevere: "/go/trastevere-hotels",
+            colosseum: "/go/colosseum-hotels",
+            all: "/go/all-rome-hotels",
+
             //center: "https://expedia.com/affiliates/rome-hotels-hotel-nazionale.J3xmB92",
-            trastevere: "https://expedia.com/affiliates/rome-hotels-giuditta-in-trastevere.isdjFuw",
-            colosseum: "https://expedia.com/affiliates/rome-hotels-hotel-viminale.0bvznqz",
-            all: "https://expedia.com/affiliates/hotel-search-rome.4iBF8Qh",
+            //trastevere: "https://expedia.com/affiliates/rome-hotels-giuditta-in-trastevere.isdjFuw",
+            //colosseum: "https://expedia.com/affiliates/rome-hotels-hotel-viminale.0bvznqz",
+            //all: "https://expedia.com/affiliates/hotel-search-rome.4iBF8Qh",
         },
         florence: {
             center: "/go/florence-hotels",
-            //center: "https://expedia.com/affiliates/florence-hotels-arte-boutique-hotel.5qSTu1U",
-            duomo: "https://expedia.com/affiliates/florence-hotels-hotel-accademia.K0fiRRi",
-            santaCroce: "https://expedia.com/affiliates/florence-hotels-hotel-david.rHQLjExe",
+            duomo: "/go/duomo-hotels",
+            spadai: "/go/spadai-hotels",// https://expedia.com/affiliates/florence-hotels-hotel-spadai.6qRj14h
+            firenze: "/go/four-seasons-firenze-hotels",
+            santaCroce: "/go/santaCroce",
+            all: "/go/all-florence-hotels",
         },
         venice: {
             center: "/go/venice-hotels",
