@@ -73,7 +73,7 @@ export default function WhereToStayFlorence() {
                     {
                         name: "Le Rêve De Naim - Firenze",
                         desc: "Refined riverside boutique stay offering stylish suites, warm service, and a peaceful setting just steps from Santa Croce and Florence’s historic center.",
-                        link: affiliateLinks.hotels.florence.le-reve-de-naim-hotel,
+                        link: affiliateLinks.hotels.florence.leReveDeNaim,
                     },
                     {
                         name: "Palazzo Guadagni",

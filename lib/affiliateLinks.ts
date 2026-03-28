@@ -31,7 +31,7 @@ export const affiliateLinks = {
             Brunelleschi: "/go/brunelleschi-hotel",
 
             arte: "/go/arte-boutique-hotel",
-            lleReveDeNaim: "/go/le-reve-de-naim-hotel",
+            leReveDeNaim: "/go/le-reve-de-naim-hotel",
             all: "/go/all-florence-hotels",
         },
         venice: {
