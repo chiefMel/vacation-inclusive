@@ -13,6 +13,7 @@ const links: Record<string, string> = {
     "all-florence-hotels": "https://expedia.com/affiliates/hotel-search-historic-centre-of-florence.ZASfiVD",
     "spadai-hotel": "https://expedia.com/affiliates/florence-hotels-hotel-spadai.6qRj14h",
     "four-seasons-firenze-hotel": "https://expedia.com/affiliates/florence-hotels-four-seasons-hotel-firenze.yJheeY3",
+    "brunelleschi-hotel": "https://expedia.com/affiliates/florence-hotels-brunelleschi-hotel.ymqemj3",
     "arte-boutique-hotel": "https://expedia.com/affiliates/florence-hotels-arte-boutique-hotel.qQb3fdT",
 
     "venice-hotels": "https://expedia.com/affiliates/hotel-search-venice-city-center.7IloCqn",

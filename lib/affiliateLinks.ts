@@ -27,8 +27,8 @@ export const affiliateLinks = {
             center: "/go/florence-hotels",
             duomo: "/go/duomo-hotels",
             spadai: "/go/spadai-hotel",// https://expedia.com/affiliates/florence-hotels-hotel-spadai.6qRj14h
-            firenze: "/go/four-seasons-firenze-hotels",
-            Brunelleschi: "",
+            firenze: "/go/four-seasons-firenze-hotel",
+            Brunelleschi: "/go/brunelleschi-hotel",
             arte: "/go/arte-boutique-hotel",
             santaCroce: "/go/santaCroce",
             all: "/go/all-florence-hotels",
