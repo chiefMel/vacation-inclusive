@@ -55,7 +55,7 @@ export default function WhereToStayFlorence() {
                     {
                         name: "Hotel Brunelleschi",
                         desc: "Stay in a restored historic building just steps from Florence’s main attractions, with top-rated service and elegant rooms.",
-                        link: "https://expedia.com/affiliates/florence-hotels-hotel-spadai.6qRj14h",
+                        link: affiliateLinks.hotels.florence.Brunelleschi,
                         highlight: "Historic Stay",
                     },
                     {
