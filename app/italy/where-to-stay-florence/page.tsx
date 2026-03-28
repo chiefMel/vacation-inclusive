@@ -71,9 +71,9 @@ export default function WhereToStayFlorence() {
                 description="Perfect for those who want local artisan vibes and restaurants."
                 hotels={[
                     {
-                        name: "Hotel Santa Croce",
-                        desc: "Cozy, family-run hotel in the heart of the neighborhood.",
-                        link: "https://expedia.com/affiliates/florence-hotels-hotel-spadai.6qRj14h",
+                        name: "Le Rêve De Naim - Firenze",
+                        desc: "Refined riverside boutique stay offering stylish suites, warm service, and a peaceful setting just steps from Santa Croce and Florence’s historic center.",
+                        link: affiliateLinks.hotels.florence.le-reve-de-naim-hotel,
                     },
                     {
                         name: "Palazzo Guadagni",

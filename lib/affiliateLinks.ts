@@ -29,8 +29,9 @@ export const affiliateLinks = {
             spadai: "/go/spadai-hotel",// https://expedia.com/affiliates/florence-hotels-hotel-spadai.6qRj14h
             firenze: "/go/four-seasons-firenze-hotel",
             Brunelleschi: "/go/brunelleschi-hotel",
+
             arte: "/go/arte-boutique-hotel",
-            santaCroce: "/go/santaCroce",
+            lle-reve-de-naim: "/go/le-reve-de-naim-hotel",
             all: "/go/all-florence-hotels",
         },
         venice: {
