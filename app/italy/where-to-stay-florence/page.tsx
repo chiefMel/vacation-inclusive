@@ -78,7 +78,7 @@ export default function WhereToStayFlorence() {
                     {
                         name: "Palazzo Guadagni",
                         desc: "Charming boutique stay with a rooftop terrace and authentic local feel in one of Florence’s most atmospheric neighborhoods.",
-                        link: "https://expedia.com/affiliates/florence-hotels-hotel-spadai.6qRj14h",
+                        link: affiliateLinks.hotels.florence.palazzoGuadagni,
                         highlight: "Local Favorite",
                     },
                 ]}

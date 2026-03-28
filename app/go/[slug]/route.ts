@@ -16,7 +16,7 @@ const links: Record<string, string> = {
     "brunelleschi-hotel": "https://expedia.com/affiliates/florence-hotels-brunelleschi-hotel.ymqemj3",
     "arte-boutique-hotel": "https://expedia.com/affiliates/florence-hotels-arte-boutique-hotel.qQb3fdT",
     "le-reve-de-naim-hotel": "https://expedia.com/affiliates/florence-hotels-le-reve-de-naim.cx0OjMP",
-
+    "palazzo-guadagni": "https://expedia.com/affiliates/florence-hotels-hotel-palazzo-guadagni.xNVCxtc",
 
     "venice-hotels": "https://expedia.com/affiliates/hotel-search-venice-city-center.7IloCqn",
 };

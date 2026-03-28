@@ -9,4 +9,4 @@ echo "Committing..."
 
 git commit -m update	 
 
-cls
+

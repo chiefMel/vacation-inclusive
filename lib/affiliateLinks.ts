@@ -32,6 +32,7 @@ export const affiliateLinks = {
 
             arte: "/go/arte-boutique-hotel",
             leReveDeNaim: "/go/le-reve-de-naim-hotel",
+            palazzoGuadagni: "/go/palazzo-guadagni",
             all: "/go/all-florence-hotels",
         },
         venice: {
