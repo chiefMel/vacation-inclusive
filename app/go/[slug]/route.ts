@@ -2,7 +2,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 const links: Record<string, string> =
-
+ {
     "rome-center": "https://expedia.com/affiliates/hotel-search-rome-city-centre.5bU9C5U",
     "rome-trastevere": "https://expedia.com/affiliates/rome-hotels-giuditta-in-trastevere.isdjFuw",
     "rome-termini": "https://expedia.com/affiliates/hotel-search-rome-termini-station.bOEW3d2",
