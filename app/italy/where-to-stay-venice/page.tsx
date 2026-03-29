@@ -38,10 +38,24 @@ export default function WhereToStayVenice() {
             </AffiliateLink>
 
                         <p className="text-sm">
-                            Prices change fast — check availability for your travel dates
-            </p>
+                            Prices change fast — many hotels sell out early in Venice
+</p>
                     </div>
                 </div>
+            </section>
+
+            {/* PRICE CONTEXT */}
+            <section className="max-w-4xl mx-auto px-6 py-8 text-center">
+                <p className="text-gray-700">
+                    Venice hotels typically range from <strong>$120–$400+ per night</strong> depending on location and season.
+  </p>
+
+                <AffiliateLink
+                    href={affiliateLinks.hotels.venice.center}
+                    className="inline-block mt-4 underline text-blue-600"
+                >
+                    Compare real-time prices for your dates
+  </AffiliateLink>
             </section>
 
             {/* QUICK PICKS */}
@@ -52,15 +66,15 @@ export default function WhereToStayVenice() {
 
                 <div className="flex flex-wrap justify-center gap-4">
                     <AffiliateLink href={affiliateLinks.hotels.venice.sanMarco} className="btn-primary">
-                        San Marco Hotels
+                        San Marco → Stay in the Center (San Marco)
           </AffiliateLink>
 
                     <AffiliateLink href={affiliateLinks.hotels.venice.dorsoduro} className="btn-primary">
-                        Dorsoduro Hotels
+                        Dorsoduro → Quiet & Scenic Stays
           </AffiliateLink>
 
                     <AffiliateLink href={affiliateLinks.hotels.venice.cannaregio} className="btn-primary">
-                        Cannaregio Hotels
+                        Cannaregio → Budget-Friendly Hotels
           </AffiliateLink>
                 </div>
             </section>
@@ -88,6 +102,16 @@ export default function WhereToStayVenice() {
                         View San Marco Hotels
           </AffiliateLink>
                 </section>
+
+                {/* MID CTA */}
+                <div className="text-center">
+                    <AffiliateLink
+                        href={affiliateLinks.hotels.venice.center}
+                        className="inline-block bg-gray-100 px-6 py-3 rounded-xl hover:shadow"
+                    >
+                        Compare all Venice hotels → Find best deals
+  </AffiliateLink>
+                </div>
 
                 {/* DORSODURO */}
                 <section className="border p-6 rounded-2xl space-y-4">
@@ -139,6 +163,25 @@ export default function WhereToStayVenice() {
                         <li><strong>Want quieter?</strong> → Choose Dorsoduro</li>
                         <li><strong>On a budget?</strong> → Pick Cannaregio</li>
                     </ul>
+                </section>
+
+
+                {/* COMPARISON BLOCK */}
+                <section className="border p-6 rounded-2xl text-center space-y-3">
+                    <h2 className="text-xl font-semibold">
+                        Compare All Venice Areas at Once
+  </h2>
+
+                    <p className="text-gray-600">
+                        See prices across San Marco, Dorsoduro, and Cannaregio for your travel dates.
+  </p>
+
+                    <AffiliateLink
+                        href={affiliateLinks.hotels.venice.center}
+                        className="btn-primary"
+                    >
+                        Compare Prices Across Venice
+  </AffiliateLink>
                 </section>
 
                 {/* FINAL CTA */}
