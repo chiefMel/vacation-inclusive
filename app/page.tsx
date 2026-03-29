@@ -47,142 +47,85 @@ export default function Home() {
         </p>
           </section>
 
-      {/* FEATURED */}
-      <section className="max-w-5xl mx-auto px-6 py-20 space-y-10">
-        <h2 className="text-3xl font-semibold text-center">
-          Start With a Proven Plan
-        </h2>
+          {/* WHERE TO STAY (PRIMARY MONEY SECTION) */}
+          <section className="max-w-6xl mx-auto px-6 py-16">
+              <h2 className="text-3xl font-bold text-center mb-4">
+                  Where to Stay in Italy
+  </h2>
 
-<div className="grid md:grid-cols-2 gap-8">
+              <p className="text-center text-gray-600 mb-8">
+                  Choose your destination — find the best areas and hotels.
+  </p>
 
-  {/* Italy Card */}
-                  <Link href="/italy/7-day-itinerary" className="group border rounded-lg overflow-hidden hover:shadow border rounded-lg overflow-hidden hover:shadow">
+              <div className="grid md:grid-cols-3 gap-6">
 
-                      <img
-                          src="https://images.unsplash.com/photo-1529260830199-42c24126f198"
-                          alt="Italy itinerary"
-                          className="w-full h-48 object-cover scale-105 group-hover:scale-110 transition"
-                      />
-
-                      <div className="p-6">
-                          <h3 className="text-xl font-semibold mb-2">
-                              7 Day Italy Itinerary
-    </h3>
-                          <p className="text-gray-600">
-                              Rome, Florence & Venice — simple train route, no car needed.
-    </p>
+                  <Link href="/italy/where-to-stay-rome" className="group border rounded-2xl overflow-hidden hover:shadow-lg transition">
+                      <div className="relative h-48">
+                          <Image src="/images/rome.jpg" alt="Rome" fill className="object-cover group-hover:scale-105 transition" />
                       </div>
-
+                      <div className="p-4">
+                          <h3 className="text-xl font-semibold">Rome</h3>
+                          <p className="text-gray-600 text-sm">Best areas for first-time visitors</p>
+                      </div>
                   </Link>
 
-                  {/* Rome vs Florence Card */}
-
-                  <Link href="/italy/rome-vs-florence" className="group border rounded-lg overflow-hidden hover:shadow border rounded-lg overflow-hidden hover:shadow">
-
-                      <img
-                          src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad"
-                          alt="Rome vs Florence"
-                          className="w-full h-48 object-cover scale-105 group-hover:scale-110 transition"
-                      />
-
-                      <div className="p-6">
-                          <h3 className="text-xl font-semibold mb-2">
-                              Rome vs Florence
-    </h3>
-                          <p className="text-gray-600">
-                              Decide where to go first based on your travel style.
-    </p>
+                  <Link href="/italy/where-to-stay-florence" className="group border rounded-2xl overflow-hidden hover:shadow-lg transition">
+                      <div className="relative h-48">
+                          <Image src="/images/florence.jpg" alt="Florence" fill className="object-cover group-hover:scale-105 transition" />
                       </div>
-
+                      <div className="p-4">
+                          <h3 className="text-xl font-semibold">Florence</h3>
+                          <p className="text-gray-600 text-sm">Compact, walkable stays</p>
+                      </div>
                   </Link>
 
-                  {/* Rome vs Venice Card */}
-
-                  <Link href="/italy/rome-vs-venice" className="group border rounded-lg overflow-hidden hover:shadow border rounded-lg overflow-hidden hover:shadow">
-
-                      <img
-                          src="https://plus.unsplash.com/premium_photo-1661963047742-dabc5a735357?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                          alt="Rome vs Florence"
-                          className="w-full h-48 object-cover scale-105 group-hover:scale-110 transition"
-                      />
-
-                      <div className="p-6">
-                          <h3 className="text-xl font-semibold mb-2">
-                              Rome vs Venice
-    </h3>
-                          <p className="text-gray-600">
-                              Decide where to go first based on your travel style.
-    </p>
+                  <Link href="/italy/where-to-stay-venice" className="group border rounded-2xl overflow-hidden hover:shadow-lg transition">
+                      <div className="relative h-48">
+                          <Image src="/images/venice.jpg" alt="Venice" fill className="object-cover group-hover:scale-105 transition" />
                       </div>
-
+                      <div className="p-4">
+                          <h3 className="text-xl font-semibold">Venice</h3>
+                          <p className="text-gray-600 text-sm">Best areas by budget</p>
+                      </div>
                   </Link>
 
+              </div>
+          </section>
 
-                  { /*Best time to visit*/}
-                  
+          {/* ITINERARY */}
+          <section className="bg-gray-50 py-16">
+              <div className="max-w-5xl mx-auto px-6 text-center space-y-6">
+                  <h2 className="text-3xl font-bold">Start With a Proven Plan</h2>
 
-                  <Link href="/italy/best-time-to-visit" className="group border rounded-lg overflow-hidden hover:shadow border rounded-lg overflow-hidden hover:shadow">
+                  <Link
+                      href="/italy/7-day-itinerary"
+                      className="inline-block border p-6 rounded-2xl hover:shadow-lg transition"
+                  >
+                      <h3 className="text-xl font-semibold">7-Day Italy Itinerary</h3>
+                      <p className="text-gray-600">
+                          Rome, Florence & Venice — simple train route, no car needed
+      </p>
+                  </Link>
+              </div>
+          </section>
 
-                      <img
-                          src="https://images.unsplash.com/photo-1491553895911-0055eca6402d"
-                          alt="Best Time to Visit Italy"
-                          className="w-full h-48 object-cover scale-105 group-hover:scale-110 transition"
-                      />
+          {/* COMPARISONS */}
+          <section className="max-w-5xl mx-auto px-6 py-16">
+              <h2 className="text-3xl font-bold text-center mb-10">
+                  Not Sure Where to Start?
+  </h2>
 
-                      <div className="p-6">
-                          <h3 className="text-xl font-semibold mb-2">
-                              Best Time to Visit Italy
-    </h3>
-                          <p className="text-gray-600">
-                              Find the perfect month based on weather, crowds, and price.
-    </p>
-                      </div>
+              <div className="grid md:grid-cols-2 gap-6">
 
+                  <Link href="/italy/rome-vs-florence" className="border p-6 rounded-xl hover:shadow">
+                      <h3 className="font-semibold text-lg">Rome vs Florence</h3>
+                      <p className="text-gray-600 text-sm">History vs charm — which fits your trip?</p>
                   </Link>
 
-
-                  {/* Where to Stay className="border p-6 rounded-lg block hover:shadow"*/}
-                  <Link href="/italy/where-to-stay-rome" className="group border rounded-lg overflow-hidden hover:shadow border rounded-lg overflow-hidden hover:shadow">
-
-                      <img
-                          src="/images/rome.jpg"
-                          alt="Where to stay in Rome"
-                          className="w-full h-48 object-cover scale-105 group-hover:scale-110 transition"
-                      />
-
-                      <div className="p-6">
-                          <h3 className="text-xl font-semibold mb-2">
-                              Where to Stay in Rome
-        </h3>
-
-                          <p className="text-gray-600">
-                              Best neighborhoods for first-time visitors and different budgets.
-        </p>
-                      </div>
-
+                  <Link href="/italy/rome-vs-venice" className="border p-6 rounded-xl hover:shadow">
+                      <h3 className="font-semibold text-lg">Rome vs Venice</h3>
+                      <p className="text-gray-600 text-sm">Classic landmarks or canals?</p>
                   </Link>
-
-                  {/* Where to stay in Florence*/}
-                  <Link href="/italy/where-to-stay-florence" className="group border rounded-lg overflow-hidden hover:shadow border rounded-lg overflow-hidden hover:shadow">
-
-                      <img
-                          src="/images/florence.jpg"
-                          alt="Where to stay in Florence"
-                          className="w-full h-48 object-cover scale-105 group-hover:scale-110 transition"
-                      />
-
-                      <div className="p-6">
-                          <h3 className="text-xl font-semibold mb-2">
-                              Where to Stay in Florence
-                            </h3>
-
-                          <p className="text-gray-600">
-                              Steps from the Duomo with modern rooms and consistently high ratings—one of the most booked hotels in Florence.
-                        </p>
-                      </div>
-
-                  </Link>
-                  
 
               </div>
           </section>
@@ -222,23 +165,30 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FINAL CTA */}
-      <section className="max-w-4xl mx-auto px-6 py-20 text-center space-y-6">
-        <h2 className="text-3xl font-semibold">
-          Start Planning Your Trip Today
-        </h2>
+          {/* FINAL CTA */}
+          <section className="bg-black text-white py-16 text-center">
+              <h2 className="text-3xl font-bold mb-4">
+                  Ready to Book Your Trip?
+  </h2>
 
-        <p className="text-gray-600">
-          Pick a destination and follow a proven plan.
-        </p>
+              <p className="mb-6 text-gray-300">
+                  Compare hotels, flights, and tours in one place.
+  </p>
 
-        <Link
-          href="/italy/7-day-itinerary"
-                  className="group border rounded-lg overflow-hidden hover:shadow inline-block bg-black text-white px-8 py-3 rounded-xl shadow hover:shadow-lg transition"
-        >
-          View Italy Itinerary
-        </Link>
-      </section>
+              <div className="flex justify-center gap-4 flex-wrap">
+                  <AffiliateLink href={affiliateLinks.hotels.rome.center}>
+                      Find Hotels
+    </AffiliateLink>
+
+                  <AffiliateLink href={affiliateLinks.flights}>
+                      Compare Flights
+    </AffiliateLink>
+
+                  <AffiliateLink href={affiliateLinks.tours}>
+                      Book Tours
+    </AffiliateLink>
+              </div>
+          </section>
 
     </main>
   );
