@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import AffiliateLink from "@/components/AffiliateLink";
 import { affiliateLinks } from "@/lib/affiliateLinks";
-import LocalInsights from "@/components/LocalInsights";
+import LocalInsights from "@/components/LocalInsights"; //
 
 export const metadata = {
     title: "7-Day Italy Itinerary for First-Time Visitors — Book Hotels Fast",
