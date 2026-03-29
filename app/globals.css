@@ -6,7 +6,7 @@
     }
 
     .btn-secondary {
-        @apply px-5 py-3 bg-gray-100 text-black rounded-lg font-semibold hover:bg-gray-200 transition inline-block;
+        @apply px-5 py-3 bg-gray-200 text-black rounded-lg font-semibold hover:bg-gray-200 transition inline-block;
     }
 }
 
