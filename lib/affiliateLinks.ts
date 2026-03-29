@@ -37,9 +37,14 @@ export const affiliateLinks = {
         },
         venice: {
             center: "/go/venice-hotels",
+            sanMarco: "/go/san-marco-hotels",
+            dorsoduro: "/go/dorsoduro-hotels",
+            cannaregio: "/go/cannaregio-hotels",
             //center: "https://expedia.com/affiliates/venice-hotels-hotel-montecarlo.8bOWCfT",
-            sanMarco: "https://expedia.com/affiliates/venice-hotels-hotel-san-marco.8SjXnzT",
-            cannaregio: "https://expedia.com/affiliates/venice-hotels-carnival-palace-hotel.Vy6ZxkC",
+            //sanMarco: "https://expedia.com/affiliates/venice-hotels-hotel-san-marco.8SjXnzT",
+            //dorsoduro:"https://expedia.com/affiliates/hotel-search-dorsoduro.CYaFSPo",
+            //cannaregio: "https://expedia.com/affiliates/venice-hotels-carnival-palace-hotel.Vy6ZxkC",
+            
         },
     },
 };

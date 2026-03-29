@@ -16,9 +16,11 @@ const links: Record<string, string> = {
     "brunelleschi-hotel": "https://expedia.com/affiliates/florence-hotels-brunelleschi-hotel.ymqemj3",
     "arte-boutique-hotel": "https://expedia.com/affiliates/florence-hotels-arte-boutique-hotel.qQb3fdT",
     "le-reve-de-naim-hotel": "https://expedia.com/affiliates/florence-hotels-le-reve-de-naim.cx0OjMP",
-    "palazzo-guadagni": "https://expedia.com/affiliates/florence-hotels-hotel-palazzo-guadagni.xNVCxtc",
-
+    "palazzo-guadagni-hotel": "https://expedia.com/affiliates/florence-hotels-hotel-palazzo-guadagni.xNVCxtc",
+    "dorsoduro-hotels": "https://expedia.com/affiliates/hotel-search-dorsoduro.CYaFSPo",
     "venice-hotels": "https://expedia.com/affiliates/hotel-search-venice-city-center.7IloCqn",
+    "san-marco-hotels": "https://expedia.com/affiliates/venice-hotels-hotel-san-marco.8SjXnzT",
+    "cannaregio-hotels": "https://expedia.com/affiliates/hotel-search-cannaregio.8c3KEO2",
 };
 
 export async function GET(
