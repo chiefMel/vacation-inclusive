@@ -1,143 +1,146 @@
-// app/italy/where-to-stay-florence/page.tsx
-import AreaSection from '@/components/AreaSection';
-import HotelCard from '@/components/HotelCard';
-import AffiliateLink from '@/components/AffiliateLink';
+import Image from "next/image";
+import AffiliateLink from "@/components/AffiliateLink";
 import { affiliateLinks } from "@/lib/affiliateLinks";
-import Link from 'next/link';
+
+export const metadata = {
+    title: "Where to Stay in Florence (Best Areas & Hotels Guide)",
+    description:
+        "Find the best areas to stay in Florence — Historic Center, Oltrarno, Santa Maria Novella. Compare hotels and book the right location.",
+};
 
 export default function WhereToStayFlorence() {
     return (
-        <main className="max-w-5xl mx-auto px-4">
+        <main className="bg-white text-gray-900">
 
-            {/* Hero */}
-            <section className="py-16 text-center">
-                <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                    Where to Stay in Florence (Best Areas + Hotels)
-        </h1>
-                <p className="text-lg md:text-xl text-gray-700 mb-6">
-                    Choosing the right area in Florence can make or break your trip. Here are the best neighborhoods and hotels for every type of traveler.
-        </p>
-                <AffiliateLink href={affiliateLinks.hotels.florence.all}>
-                    <button className="border border-black px-6 py-3">
-                        View All Florence Hotels
-          </button>
-                </AffiliateLink>
-            </section>
+            {/* HERO */}
+            <section className="relative h-[420px] md:h-[520px]">
+                <Image
+                    src="/images/florence.jpg"
+                    alt="Florence skyline"
+                    fill
+                    className="object-cover"
+                />
+                <div className="absolute inset-0 bg-black/30" />
+                <div className="absolute inset-0 flex items-center justify-center text-center px-6">
+                    <div className="text-white space-y-4 max-w-2xl">
+                        <h1 className="text-4xl md:text-5xl font-bold">
+                            Where to Stay in Florence
+            </h1>
+                        <p className="text-lg">
+                            Best areas for first-time visitors — walkable, central, and easy to navigate.
+            </p>
 
-            {/* Quick Picks */}
-            <section className="py-12">
-                <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
-                    Best Hotels in Florence (Quick Picks)
-        </h2>
-                <div className="grid gap-6 md:grid-cols-2">
-                    <HotelCard
-                        name="Hotel Spadai"
-                        highlight="Best Overall"
-                        desc="Steps from the Duomo with modern rooms, excellent breakfast, and consistently high ratings—one of the most booked hotels in Florence."
-                        link={affiliateLinks.hotels.florence.spadai} 
-                        primaryCTA
-                    />
-                    <HotelCard
-                        name="Four Seasons Firenze"
-                        highlight="Luxury"
-                        desc="A peaceful luxury retreat with private gardens, spa, and world-class service just minutes from the historic center."
-                        link={affiliateLinks.hotels.florence.firenze}
-                        primaryCTA
-                    />
-                </div>
-            </section>
+                        <AffiliateLink
+                            href={affiliateLinks.hotels.florence.center}
+                            className="btn-primary"
+                        >
+                            Check Florence Hotel Prices
+            </AffiliateLink>
 
-            {/* Area Sections */}
-            <AreaSection
-                title="Historic Center (Centro Storico)"
-                description="Best for first-time visitors who want to walk everywhere."
-                hotels={[
-                    {
-                        name: "Hotel Brunelleschi",
-                        desc: "Stay in a restored historic building just steps from Florence’s main attractions, with top-rated service and elegant rooms.",
-                        link: affiliateLinks.hotels.florence.Brunelleschi,
-                        highlight: "Historic Stay",
-                    },
-                    {
-                        name: "Arte' Boutique Hotel",
-                        desc: "A chic, intimate stay in central Florence with stylish rooms and standout Duomo views.",
-                        link: affiliateLinks.hotels.florence.arte,
-                    },
-                ]}
-            />
-
-
-            <AreaSection
-                title="Santa Croce"
-                description="Perfect for those who want local artisan vibes and restaurants."
-                hotels={[
-                    {
-                        name: "Le Rêve De Naim - Firenze",
-                        desc: "Refined riverside boutique stay offering stylish suites, warm service, and a peaceful setting just steps from Santa Croce and Florence’s historic center.",
-                        link: affiliateLinks.hotels.florence.leReveDeNaim,
-                    },
-                    {
-                        name: "Palazzo Guadagni",
-                        desc: "Charming boutique stay with a rooftop terrace and authentic local feel in one of Florence’s most atmospheric neighborhoods.",
-                        link: affiliateLinks.hotels.florence.palazzoGuadagni,
-                        highlight: "Local Favorite",
-                    },
-                ]}
-            />
-
-            {/* Mid-page CTA */}
-            <section className="py-12 text-center">
-                <AffiliateLink href={affiliateLinks.hotels.florence.all}>
-                    <button className="bg-black text-white px-8 py-4 text-lg">
-                        See All Florence Hotel Deals
-          </button>
-                </AffiliateLink>
-            </section>
-
-            {/* Where NOT to Stay */}
-            <section className="py-12">
-                <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-4">
-                    Where NOT to Stay in Florence
-        </h2>
-                <p className="text-gray-700">
-                    Avoid staying far outside the historic center unless you're on a tight budget. Transportation is limited, and you'll lose valuable time commuting.
-        </p>
-            </section>
-
-            {/*  FAQ Section */}
-            <section className="py-12">
-                <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">FAQs About Staying in Florence</h2>
-                <div className="space-y-4">
-                    <div>
-                        <h3 className="font-semibold text-gray-800">Is Florence walkable?</h3>
-                        <p className="text-gray-700">Yes, most major attractions are within walking distance.</p>
-                    </div>
-                    <div>
-                        <h3 className="font-semibold text-gray-800">Is it better to stay in the historic center?</h3>
-                        <p className="text-gray-700">For first-time visitors, absolutely.</p>
+                        <p className="text-sm">
+                            Prices change quickly — check availability now
+            </p>
                     </div>
                 </div>
             </section>
 
-            {/* Final CTA */}
-            <section className="py-16 text-center">
-                <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6">
-                    Ready to book your stay in Florence?
+            {/* QUICK PICKS */}
+            <section className="max-w-5xl mx-auto px-6 py-10 text-center">
+                <h2 className="text-2xl font-semibold mb-4">
+                    Best Areas to Stay in Florence
         </h2>
-                <AffiliateLink href={affiliateLinks.hotels.florence.all}>
-                    <button className="bg-black text-white px-8 py-4 text-lg">
-                        Check Florence Hotel Deals
-          </button>
-                </AffiliateLink>
+
+                <div className="flex flex-wrap justify-center gap-4">
+                    <AffiliateLink href={affiliateLinks.hotels.florence.center} className="btn-primary">
+                        Historic Center
+          </AffiliateLink>
+
+                    <AffiliateLink href={affiliateLinks.hotels.florence.oltrarno} className="btn-primary">
+                        Oltrarno
+          </AffiliateLink>
+
+                    <AffiliateLink href={affiliateLinks.hotels.florence.smn} className="btn-primary">
+                        Santa Maria Novella
+          </AffiliateLink>
+                </div>
             </section>
 
-            {/* Internal Linking */}
-            <section className="py-12 text-center text-sm">
-                <Link href="/italy/rome-vs-florence" className="underline mx-2">Rome vs Florence</Link>
-                <Link href="/italy/where-to-stay-rome" className="underline mx-2">Where to Stay in Rome</Link>
-                <Link href="/italy/7-day-itinerary" className="underline mx-2">7-Day Italy Itinerary</Link>
-            </section>
+            {/* CONTENT */}
+            <div className="max-w-4xl mx-auto px-6 space-y-12 pb-16">
 
+                {/* HISTORIC CENTER */}
+                <section className="border p-6 rounded-2xl space-y-4">
+                    <h2 className="text-2xl font-semibold">Historic Center (Best Location)</h2>
+                    <p>
+                        Stay near the Duomo, Uffizi Gallery, and Ponte Vecchio. Everything is within walking distance.
+          </p>
+                    <ul className="space-y-1 text-gray-700">
+                        <li>✔ Walk to all major attractions</li>
+                        <li>✔ Best for first-time visitors</li>
+                        <li>✖ Higher prices</li>
+                    </ul>
+
+                    <AffiliateLink href={affiliateLinks.hotels.florence.center} className="btn-primary">
+                        View Hotels in Historic Center
+          </AffiliateLink>
+                </section>
+
+                {/* OLTRARNO */}
+                <section className="border p-6 rounded-2xl space-y-4">
+                    <h2 className="text-2xl font-semibold">Oltrarno (Local Experience)</h2>
+                    <p>
+                        A quieter area across the river with artisan shops, local restaurants, and fewer tourists.
+          </p>
+                    <ul className="space-y-1 text-gray-700">
+                        <li>✔ More authentic vibe</li>
+                        <li>✔ Less crowded</li>
+                        <li>✔ Great food scene</li>
+                    </ul>
+
+                    <AffiliateLink href={affiliateLinks.hotels.florence.oltrarno} className="btn-primary">
+                        Find Hotels in Oltrarno
+          </AffiliateLink>
+                </section>
+
+                {/* SMN */}
+                <section className="border p-6 rounded-2xl space-y-4">
+                    <h2 className="text-2xl font-semibold">Santa Maria Novella (Best for Transport)</h2>
+                    <p>
+                        Ideal if you're arriving by train. Close to the station with easy access to the city center.
+          </p>
+                    <ul className="space-y-1 text-gray-700">
+                        <li>✔ Close to train station</li>
+                        <li>✔ Convenient for short stays</li>
+                        <li>✔ Good hotel availability</li>
+                    </ul>
+
+                    <AffiliateLink href={affiliateLinks.hotels.florence.smn} className="btn-primary">
+                        Browse Hotels Near Station
+          </AffiliateLink>
+                </section>
+
+                {/* DECISION */}
+                <section className="bg-gray-50 p-6 rounded-2xl">
+                    <h2 className="text-2xl font-semibold mb-2">Which Area Should You Choose?</h2>
+                    <ul className="space-y-2 text-gray-700">
+                        <li><strong>First time?</strong> → Historic Center</li>
+                        <li><strong>Want local vibe?</strong> → Oltrarno</li>
+                        <li><strong>Short trip?</strong> → Near station</li>
+                    </ul>
+                </section>
+
+                {/* FINAL CTA */}
+                <section className="bg-black text-white p-8 rounded-2xl text-center space-y-4">
+                    <h2 className="text-2xl font-semibold">
+                        Compare Florence Hotels
+          </h2>
+
+                    <AffiliateLink href={affiliateLinks.hotels.florence.center} className="btn-primary">
+                        Check All Florence Hotels
+          </AffiliateLink>
+                </section>
+
+            </div>
         </main>
     );
-} 
+}
