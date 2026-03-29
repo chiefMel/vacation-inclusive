@@ -153,24 +153,6 @@ export default function WhereToStayRome() {
                     </ul>
                 </section>
 
-
-                <section className="border p-6 rounded-2xl text-center space-y-3">
-  <h2 className="text-xl font-semibold">
-    Compare All Florence Areas at Once
-  </h2>
-
-  <p className="text-gray-600">
-    See prices across the Historic Center, Oltrarno, and SMN for your dates.
-  </p>
-
-  <AffiliateLink
-    href={affiliateLinks.hotels.florence.center}
-    className="btn-primary"
-  >
-    Compare Prices Across Florence
-  </AffiliateLink>
-                </section>
-
                 <section className="border p-6 rounded-2xl text-center space-y-3">
                     <h2 className="text-xl font-semibold">
                         Compare All Rome Areas at Once
