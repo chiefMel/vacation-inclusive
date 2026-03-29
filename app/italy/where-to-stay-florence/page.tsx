@@ -38,10 +38,24 @@ export default function WhereToStayFlorence() {
             </AffiliateLink>
 
                         <p className="text-sm">
-                            Prices change quickly — check availability now
+                            Prices change fast — top hotels sell out quickly in Florence
             </p>
                     </div>
                 </div>
+            </section>
+
+            {/* PRICE CONTEXT */}
+            <section className="max-w-4xl mx-auto px-6 py-8 text-center">
+                <p className="text-gray-700">
+                    Florence hotels typically range from <strong>$120–$350 per night</strong> depending on location and season.
+  </p>
+
+                <AffiliateLink
+                    href={affiliateLinks.hotels.florence.center}
+                    className="inline-block mt-4 underline text-blue-600"
+                >
+                    Compare real-time prices for your dates
+  </AffiliateLink>
             </section>
 
             {/* QUICK PICKS */}
@@ -52,15 +66,15 @@ export default function WhereToStayFlorence() {
 
                 <div className="flex flex-wrap justify-center gap-4">
                     <AffiliateLink href={affiliateLinks.hotels.florence.center} className="btn-primary">
-                        Historic Center
+                        Stay in the Center (Historic Center)
           </AffiliateLink>
 
                     <AffiliateLink href={affiliateLinks.hotels.florence.oltrarno} className="btn-primary">
-                        Oltrarno
+                        Local & Quiet (Oltrarno)
           </AffiliateLink>
 
                     <AffiliateLink href={affiliateLinks.hotels.florence.smn} className="btn-primary">
-                        Santa Maria Novella
+                        Near Train Station (SMN)
           </AffiliateLink>
                 </div>
             </section>
@@ -84,6 +98,15 @@ export default function WhereToStayFlorence() {
                         View Hotels in Historic Center
           </AffiliateLink>
                 </section>
+
+                <div className="text-center">
+                    <AffiliateLink
+                        href={affiliateLinks.hotels.florence.center}
+                        className="inline-block bg-gray-100 px-6 py-3 rounded-xl hover:shadow"
+                    >
+                        Compare all Florence hotels → Find best deals
+  </AffiliateLink>
+                </div>
 
                 {/* OLTRARNO */}
                 <section className="border p-6 rounded-2xl space-y-4">
@@ -127,6 +150,23 @@ export default function WhereToStayFlorence() {
                         <li><strong>Want local vibe?</strong> → Oltrarno</li>
                         <li><strong>Short trip?</strong> → Near station</li>
                     </ul>
+                </section>
+
+                <section className="border p-6 rounded-2xl text-center space-y-3">
+                    <h2 className="text-xl font-semibold">
+                        Compare All Florence Areas at Once
+  </h2>
+
+                    <p className="text-gray-600">
+                        See prices across the Historic Center, Oltrarno, and SMN for your dates.
+  </p>
+
+                    <AffiliateLink
+                        href={affiliateLinks.hotels.florence.center}
+                        className="btn-primary"
+                    >
+                        Compare Prices Across Florence
+  </AffiliateLink>
                 </section>
 
                 {/* FINAL CTA */}

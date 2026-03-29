@@ -38,12 +38,26 @@ export default function WhereToStayRome() {
             </AffiliateLink>
 
                         <p className="text-sm">
-                            Book early — Rome fills up fast
+                            Rome hotels sell out fast — especially in central areas
             </p>
                     </div>
                 </div>
             </section>
 
+
+            {/* PRICE CONTEXT */}
+            <section className="max-w-4xl mx-auto px-6 py-8 text-center">
+                <p className="text-gray-700">
+                    Rome hotels typically range from <strong>$100–$400+ per night</strong> depending on area and season.
+  </p>
+
+                <AffiliateLink
+                    href={affiliateLinks.hotels.rome.center}
+                    className="inline-block mt-4 underline text-blue-600"
+                >
+                    Compare real-time prices for your dates
+  </AffiliateLink>
+            </section>
             {/* QUICK PICKS */}
             <section className="max-w-5xl mx-auto px-6 py-10 text-center">
                 <h2 className="text-2xl font-semibold mb-4">
@@ -52,15 +66,16 @@ export default function WhereToStayRome() {
 
                 <div className="flex flex-wrap justify-center gap-4">
                     <AffiliateLink href={affiliateLinks.hotels.rome.center} className="btn-primary">
-                        Centro Storico
+                        Stay in the Center (Centro Storico)
+
           </AffiliateLink>
 
                     <AffiliateLink href={affiliateLinks.hotels.rome.trastevere} className="btn-primary">
-                        Trastevere
+                        Best Vibe & Food (Trastevere)
           </AffiliateLink>
 
                     <AffiliateLink href={affiliateLinks.hotels.rome.termini} className="btn-primary">
-                        Termini
+                        Budget & Transport (Termini)
           </AffiliateLink>
                 </div>
             </section>
@@ -84,6 +99,15 @@ export default function WhereToStayRome() {
                         View Hotels in Centro Storico
           </AffiliateLink>
                 </section>
+
+                <div className="text-center">
+                    <AffiliateLink
+                        href={affiliateLinks.hotels.rome.center}
+                        className="inline-block bg-gray-100 px-6 py-3 rounded-xl hover:shadow"
+                    >
+                        Compare all Rome hotels → Find best deals
+  </AffiliateLink>
+                </div>
 
                 {/* TRASTEVERE */}
                 <section className="border p-6 rounded-2xl space-y-4">
@@ -127,6 +151,41 @@ export default function WhereToStayRome() {
                         <li><strong>Nightlife?</strong> → Trastevere</li>
                         <li><strong>Budget?</strong> → Termini</li>
                     </ul>
+                </section>
+
+
+                <section className="border p-6 rounded-2xl text-center space-y-3">
+  <h2 className="text-xl font-semibold">
+    Compare All Florence Areas at Once
+  </h2>
+
+  <p className="text-gray-600">
+    See prices across the Historic Center, Oltrarno, and SMN for your dates.
+  </p>
+
+  <AffiliateLink
+    href={affiliateLinks.hotels.florence.center}
+    className="btn-primary"
+  >
+    Compare Prices Across Florence
+  </AffiliateLink>
+                </section>
+
+                <section className="border p-6 rounded-2xl text-center space-y-3">
+                    <h2 className="text-xl font-semibold">
+                        Compare All Rome Areas at Once
+  </h2>
+
+                    <p className="text-gray-600">
+                        See prices across Centro Storico, Trastevere, and Termini.
+  </p>
+
+                    <AffiliateLink
+                        href={affiliateLinks.hotels.rome.center}
+                        className="btn-primary"
+                    >
+                        Compare Prices Across Rome
+  </AffiliateLink>
                 </section>
 
                 {/* FINAL CTA */}
