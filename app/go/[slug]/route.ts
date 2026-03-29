@@ -18,8 +18,8 @@ const links: Record<string, string> = {
     "le-reve-de-naim-hotel": "https://expedia.com/affiliates/florence-hotels-le-reve-de-naim.cx0OjMP",
     "palazzo-guadagni-hotel": "https://expedia.com/affiliates/florence-hotels-hotel-palazzo-guadagni.xNVCxtc",
     "dorsoduro-hotels": "https://expedia.com/affiliates/hotel-search-dorsoduro.CYaFSPo",
-    "venice-hotels": "https://expedia.com/affiliates/hotel-search-venice-city-center.7IloCqn",
-    "san-marco-hotels": "https://expedia.com/affiliates/venice-hotels-hotel-san-marco.8SjXnzT",
+    "venice-hotels": "https://expedia.com/affiliates/hotel-search-venice.fEcFPZF",
+    "san-marco-hotels": "https://expedia.com/affiliates/hotel-search-san-marco.ENCAFue",
     "cannaregio-hotels": "https://expedia.com/affiliates/hotel-search-cannaregio.8c3KEO2",
 };
 
