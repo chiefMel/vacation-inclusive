@@ -4,176 +4,161 @@ import AffiliateLink from "@/components/AffiliateLink";
 import { affiliateLinks } from "@/lib/affiliateLinks";
 
 export const metadata = {
-    title: "7 Day Italy Itinerary for First-Time Visitors (No Car Needed)",
+    title: "7-Day Italy Itinerary for First-Time Visitors — Book Hotels Fast",
     description:
-        "A simple 7-day Italy itinerary covering Rome, Florence, and Venice using trains.",
+        "Explore Rome, Florence, and Venice in 7 days. Easy train travel, top hotels, and fast booking links included.",
 };
 
 export default function ItalyItineraryPage() {
     return (
         <main className="bg-white text-gray-900">
 
-            {/* HERO  */}
-            <section className="relative h-[400px]">
+            {/* HERO */}
+            <section className="relative h-[450px] md:h-[550px]">
                 <Image
                     src="/images/italy.jpg"
                     alt="Italy travel"
                     fill
                     className="object-cover"
                 />
-                <div className="absolute inset-0 bg-black/25" />
-
+                <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute inset-0 flex items-center justify-center text-center px-6">
                     <div className="text-white space-y-4 max-w-2xl">
                         <h1 className="text-4xl md:text-5xl font-bold">
-                            7 Day Italy Itinerary
+                            7-Day Italy Itinerary
             </h1>
                         <p className="text-lg">
-                            Rome, Florence & Venice — simple route, no car needed.
+                            Rome → Florence → Venice — the easiest route for first-time travelers, no car needed.
             </p>
-                        <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                            <AffiliateLink href={affiliateLinks.hotels.rome.center}>
-                                Rome Hotels
-  </AffiliateLink>
-
-                            <AffiliateLink href={affiliateLinks.hotels.florence.center}>
-                                Florence Hotels
-  </AffiliateLink>
-
-                            <AffiliateLink href={affiliateLinks.hotels.venice.center}>
-                                Venice Hotels
-  </AffiliateLink>
-                        </div>
+                        <AffiliateLink
+                            href={affiliateLinks.hotels.rome.center}
+                            className="inline-block mt-4 px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition"
+                        >
+                            Check Hotel Availability in Rome
+            </AffiliateLink>
+                        <p className="text-sm mt-2">
+                            Prices update daily — book early for the best rates
+            </p>
                     </div>
                 </div>
             </section>
-            
-            {/* CONTENT */}
-            <div className="max-w-4xl mx-auto px-6 py-16 space-y-16">
 
-                {/* Back */}
-                <Link href="/" className="text-blue-600 underline">
-                    ← Back to Home
-        </Link>
-                
-                {/* QUICK PLAN */}
-                <section className="bg-gray-50 p-6 rounded-2xl space-y-4">
-                    
-                    <h2 className="text-2xl font-semibold">Quick Plan</h2>
-                    <ul className="grid md:grid-cols-2 gap-2 text-gray-700">
-                        <li>Day 1–2: Rome</li>
-                        <li>Day 3–4: Florence</li>
-                        <li>Day 5–6: Venice</li>
-                        <li>Day 7: Departure</li>
-                    </ul>
-                </section>
-
-                <div className="border p-4 rounded-xl text-center">
-                    <p className="font-medium mb-2">
-                        Hotels fill up fast in peak season — check your dates now
-  </p>
-
-                    <AffiliateLink href={affiliateLinks.hotels.rome.center}>
-                        Check Availability in Rome
-  </AffiliateLink>
+            {/* QUICK NAV CTA */}
+            <section className="max-w-5xl mx-auto px-6 py-8 text-center">
+                <h2 className="text-2xl font-semibold mb-4">
+                    Quick Booking Options
+        </h2>
+                <div className="flex justify-center gap-4 flex-wrap">
+                    <AffiliateLink href={affiliateLinks.hotels.rome.center} className="btn-primary">
+                        Rome Hotels
+          </AffiliateLink>
+                    <AffiliateLink href={affiliateLinks.hotels.florence.center} className="btn-primary">
+                        Florence Hotels
+          </AffiliateLink>
+                    <AffiliateLink href={affiliateLinks.hotels.venice.center} className="btn-primary">
+                        Venice Hotels
+          </AffiliateLink>
+                    <AffiliateLink href={affiliateLinks.flights} className="btn-secondary">
+                        Compare Flights
+          </AffiliateLink>
+                    <AffiliateLink href={affiliateLinks.tours} className="btn-secondary">
+                        Book Tours
+          </AffiliateLink>
                 </div>
-                
-                {/* DAY SECTIONS */}
-                <section className="space-y-8">
+            </section>
 
-                    <div className="border p-6 rounded-2xl space-y-3">
-                        <h2 className="text-xl font-semibold">Day 1–2: Rome</h2>
-                        <p className="text-gray-600">
-                            Visit iconic landmarks like the Colosseum and Vatican City.
-                            Expect crowds but unmatched history.
-            </p>
+            {/* ITINERARY CONTENT */}
+            <div className="max-w-4xl mx-auto px-6 py-12 space-y-12">
 
-                        <AffiliateLink href={affiliateLinks.hotels.rome.center}>
-                            Check Rome hotel prices
-</AffiliateLink>
-                       
-                    </div>
-
-                    <div className="border p-6 rounded-2xl space-y-3">
-                        <h2 className="text-xl font-semibold">Day 3–4: Florence</h2>
-                        <p className="text-gray-600">
-                            A compact city known for Renaissance art and walkable streets.
-            </p>
-
-                        <AffiliateLink href={affiliateLinks.hotels.florence.center}>
-                            See best hotels in Florence
-</AffiliateLink>
-                        
-                    </div>
-
-                    <div className="border p-6 rounded-2xl space-y-3">
-                        <h2 className="text-xl font-semibold">Day 5–6: Venice</h2>
-                        <p className="text-gray-600">
-                            Explore canals, bridges, and unique neighborhoods.
-            </p>
-                        <AffiliateLink href={affiliateLinks.hotels.venice.center}>
-                            View Venice hotel deals
-</AffiliateLink>
-                        {/*<a href="https://www.booking.com/index.html" className="text-blue-600 underline">
-                            Find stays in Venice
-            </a>*/}
-                    </div>
-
+                {/* DAYS 1–2: ROME */}
+                <section className="border p-6 rounded-2xl space-y-4">
+                    <h2 className="text-2xl font-semibold">Days 1–2: Rome</h2>
+                    <p>
+                        Explore the Colosseum, Vatican City, and Trastevere. Rome is crowded but full of history — the perfect start.
+          </p>
+                    <AffiliateLink
+                        href={affiliateLinks.hotels.rome.center}
+                        className="btn-primary"
+                    >
+                        Find Hotels in Rome
+          </AffiliateLink>
                 </section>
-                <p className="text-sm text-gray-600">
-                    Prices change daily — check your travel dates now
-</p>
-                {/* COST */}
+
+                {/* DAYS 3–4: FLORENCE */}
+                <section className="border p-6 rounded-2xl space-y-4">
+                    <h2 className="text-2xl font-semibold">Days 3–4: Florence</h2>
+                    <p>
+                        Walkable Renaissance city with iconic art, the Duomo, and Ponte Vecchio. Easy to navigate and soak in Italian culture.
+          </p>
+                    <AffiliateLink
+                        href={affiliateLinks.hotels.florence.center}
+                        className="btn-primary"
+                    >
+                        Compare Hotels in Florence
+          </AffiliateLink>
+                </section>
+
+                {/* DAYS 5–6: VENICE */}
+                <section className="border p-6 rounded-2xl space-y-4">
+                    <h2 className="text-2xl font-semibold">Days 5–6: Venice</h2>
+                    <p>
+                        Explore canals, bridges, and neighborhoods like San Marco and Dorsoduro. Venice is unique — stay near main attractions.
+          </p>
+                    <AffiliateLink
+                        href={affiliateLinks.hotels.venice.center}
+                        className="btn-primary"
+                    >
+                        Book Venice Hotels
+          </AffiliateLink>
+                </section>
+
+                {/* DAY 7: DEPARTURE */}
+                <section className="border p-6 rounded-2xl space-y-2">
+                    <h2 className="text-2xl font-semibold">Day 7: Departure</h2>
+                    <p>
+                        Travel back home or continue exploring nearby Italian regions. Ensure your hotels and trains are booked in advance.
+          </p>
+                </section>
+
+                {/* COST ESTIMATE */}
                 <section className="bg-gray-50 p-6 rounded-2xl space-y-3">
                     <h2 className="text-2xl font-semibold">Estimated Cost</h2>
-                    <ul className="text-gray-700 space-y-1">
+                    <ul className="space-y-1 text-gray-700">
                         <li>Flights: $500–$900</li>
-                        <li>Hotels: $700–$1500</li>
-                        <li>Total: $1,600 – $3,000</li>
+                        <li>Hotels: $700–$1,500</li>
+                        <li>Total: $1,600–$3,000</li>
                     </ul>
                 </section>
 
-                {/* CTA */}
-                
+                {/* FINAL CTA BLOCK */}
                 <section className="bg-black text-white p-8 rounded-2xl text-center space-y-4">
                     <h2 className="text-2xl font-semibold">
-                        Plan Your Italy Trip
+                        Ready to Book Your Italy Trip?
           </h2>
-                    <div className="flex justify-center gap-4 flex-wrap">
-                        <AffiliateLink href={affiliateLinks.hotels.rome.center}>
+                    <p>Check hotel availability in Rome, Florence, and Venice now — prices update daily!</p>
+                    <div className="flex justify-center gap-4 flex-wrap mt-4">
+                        <AffiliateLink href={affiliateLinks.hotels.rome.center} className="btn-primary">
                             Rome Hotels
-  </AffiliateLink>
-
-                        <AffiliateLink href={affiliateLinks.hotels.florence.center}>
+            </AffiliateLink>
+                        <AffiliateLink href={affiliateLinks.hotels.florence.center} className="btn-primary">
                             Florence Hotels
-  </AffiliateLink>
-
-                        <AffiliateLink href={affiliateLinks.hotels.venice.center}>
+            </AffiliateLink>
+                        <AffiliateLink href={affiliateLinks.hotels.venice.center} className="btn-primary">
                             Venice Hotels
-  </AffiliateLink>
-
-                        <AffiliateLink href={affiliateLinks.flights}>
-                            Compare Flights
-  </AffiliateLink>
-
-                        <AffiliateLink href={affiliateLinks.tours}>
-                            Book Tours
-  </AffiliateLink>
+            </AffiliateLink>
                     </div>
                 </section>
-                
-                {/* INTERNAL LINK */}
-                <section className="text-center">
+
+                {/* INTERNAL NAVIGATION */}
+                <section className="text-center mt-8">
                     <Link
-                        href="/italy/where-to-stay-rome"
-                        className="text-blue-600 underline"
+                        href="/italy/rome-vs-florence"
+                        className="text-blue-600 underline font-medium"
                     >
-                        Best areas to stay in Rome →
+                        Not sure where to start? Compare Rome vs Florence →
           </Link>
                 </section>
-
             </div>
-
         </main>
     );
 }
