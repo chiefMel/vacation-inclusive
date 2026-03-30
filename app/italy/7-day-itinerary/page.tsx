@@ -115,7 +115,7 @@ export default function ItalyItineraryPage() {
                     >
                         Book Venice Hotels
           </AffiliateLink>
-                    <LocalInsightsVenic />
+                    <LocalInsightsVenice />
 
                 </section>
 
