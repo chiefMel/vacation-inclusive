@@ -2,7 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 import AffiliateLink from "@/components/AffiliateLink";
 import { affiliateLinks } from "@/lib/affiliateLinks";
-import LocalInsights from "@/components/LocalInsights"; //
+import LocalInsights from "@/components/LocalInsightsVenice";
+import LocalInsightsRome from "@/components/LocalInsightsRome";
+import LocalInsightsFlorence from "@/components/LocalInsightsFlorence";
 
 export const metadata = {
     title: "7-Day Italy Itinerary for First-Time Visitors — Book Hotels Fast",
@@ -83,6 +85,7 @@ export default function ItalyItineraryPage() {
                     >
                         Find Hotels in Rome
           </AffiliateLink>
+                    <LocalInsightsRome />
                 </section>
 
                 {/* DAYS 3–4: FLORENCE */}
@@ -97,6 +100,7 @@ export default function ItalyItineraryPage() {
                     >
                         Compare Hotels in Florence
           </AffiliateLink>
+                    <LocalInsightsFlorence />
                 </section>
 
                 {/* DAYS 5–6: VENICE */}
@@ -111,7 +115,7 @@ export default function ItalyItineraryPage() {
                     >
                         Book Venice Hotels
           </AffiliateLink>
-                    <LocalInsights />
+                    <LocalInsightsVenic />
 
                 </section>
 
