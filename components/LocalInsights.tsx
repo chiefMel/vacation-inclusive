@@ -1,4 +1,7 @@
 // components/LocalInsights.tsx
+
+"use client";
+
 export default function LocalInsights() {
     return (
         <section className="local-insights">
