@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import AffiliateLink from "@/components/AffiliateLink";
 import { affiliateLinks } from "@/lib/affiliateLinks";
-import LocalInsights from "@/components/LocalInsightsVenice";
+import LocalInsightsVenice from "@/components/LocalInsightsVenice";
 import LocalInsightsRome from "@/components/LocalInsightsRome";
 import LocalInsightsFlorence from "@/components/LocalInsightsFlorence";
 
